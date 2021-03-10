@@ -2,20 +2,23 @@
 
 header
 {
-    height: 425px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
 }
 
+.logo
+{
+    width: 66%;
+}
+
 nav
 {
-    position: absolute
+    position: absolute;
     width: 34%;
     display: flex;
     justify-content: space-around;
     margin-left: 66%;
-    padding: 0;
 }
 
 ul
