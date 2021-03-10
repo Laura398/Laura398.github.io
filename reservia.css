@@ -35,3 +35,34 @@ li
     position: absolute;S
     width: 100%;
 }
+
+/*Section 1*/
+
+/*Hébergements*/
+
+#hab-conteneur
+{
+  display: flex;
+  flex-wrap: wrap;
+  width: 61%;
+}
+
+.hab1
+{
+    width: 25%;
+    margin: 15px;
+}
+
+.image-conteneur
+{
+    width: 100%;
+	height: 110px;
+    overflow: hidden;
+}
+
+.pic
+{
+    width: 100%;
+	height: 110px;
+    overflow: hidden;
+}
