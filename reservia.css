@@ -56,16 +56,10 @@ li
     margin: 15px;
 }
 
-.image-conteneur
-{
-    width: 100%;
-	height: 110px;
-    overflow: hidden;
-}
-
 .pic
 {
     width: 100%;
 	height: 110px;
     overflow: hidden;
+    object-fit: cover;
 }
