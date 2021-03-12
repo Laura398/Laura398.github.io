@@ -35,24 +35,30 @@ li
 
 .header-main
 {
-    position: absolute;S
+    position: absolute;
     width: 100%;
 }
 
 /*Section 1*/
 
-#accomodation
+.section
 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /*Hébergements*/
 
-#hab-conteneur
+.article
+{
+    width: 61%;
+}
+
+.hab-conteneur
 {
   display: flex;
   flex-wrap: wrap;
-  width: 61%;
+  width: 100%;
 }
 
 .hab1
@@ -71,12 +77,12 @@ li
 
 /*Les plus populaires*/
 
-aside
+.aside
 {
     width: 29%;
 }
 
-#aside-title-container
+.aside-title-container
 {
     display: flex;
     justify-content: space-between;
@@ -86,6 +92,8 @@ aside
 .pop1
 {
     display: flex;
+    width: 340px;
+    height: 145px;
 }
 
 .pic2
