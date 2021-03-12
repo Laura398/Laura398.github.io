@@ -160,3 +160,20 @@ li
     overflow: hidden;
     object-fit: cover;
 }
+
+/*Footer*/
+
+.footer
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer ul
+{
+    list-style-type: none;
+    display:list-item;
+    margin-left: 50px;
+    width: 450px;
+}
