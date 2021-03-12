@@ -19,42 +19,52 @@
 body
 {
     background-color: white;
-    font-family: 'Raleway', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*header*/
 
-header
+.header
 {
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     position: relative;
 }
 
-.logo
+.navall
 {
-    width: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-nav
+.sub
 {
-    width: 34%;
+    float: right;
+}
+
+.nav
+{
+    list-style-type: none;
     display: flex;
-    justify-content: space-around;
-    margin-left: 66%;
-    position: absolute;
+    justify-content: flex-end;
+    padding-left: 0;
 }
 
 ul
 {
     list-style-type: none;
     display: flex;
+    justify-content: space-around;
     padding-left: 0;
 }
 
 li
 {
     padding-right: 25px;
+    padding-left: 0;
 }
 
 .header-main
