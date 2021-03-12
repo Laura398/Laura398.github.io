@@ -1,3 +1,27 @@
+/*Overall*/
+
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('police/Raleway-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Raleway-bold';
+    src: url('police/Raleway-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body
+{
+    background-color: white;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
 /*header*/
 
 header
@@ -36,6 +60,14 @@ li
 .header-main
 {
     width: 100%;
+}
+
+form
+{
+    width: 420px;
+    height: 50px;
+    border: solid silver;
+    border-radius: 20px;
 }
 
 /*Section 1*/
