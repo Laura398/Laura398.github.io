@@ -41,6 +41,11 @@ li
 
 /*Section 1*/
 
+#accomodation
+{
+    display: flex;
+}
+
 /*Hébergements*/
 
 #hab-conteneur
@@ -60,6 +65,33 @@ li
 {
     width: 100%;
 	height: 110px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+/*Les plus populaires*/
+
+aside
+{
+    width: 29%;
+}
+
+#aside-title-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pop1
+{
+    display: flex;
+}
+
+.pic2
+{
+    width: 130px;
+	height: 135px;
     overflow: hidden;
     object-fit: cover;
 }
