@@ -40,7 +40,7 @@ li
 
 /*Section 1*/
 
-.section
+.section1
 {
     display: flex;
     flex-wrap: wrap;
@@ -103,6 +103,32 @@ li
 {
     width: 130px;
 	height: 135px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+/*Section 2*/
+
+.section2
+{
+    width: 100%;
+    min-height: 615px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.act1
+{
+    width: 18%;
+    height: 445px;
+}
+
+.pic3
+{
+    width: 100%;
+    height: 385px;
     overflow: hidden;
     object-fit: cover;
 }
