@@ -34,7 +34,7 @@ body
     position: relative;
 }
 
-.navall
+nav
 {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -59,6 +59,7 @@ a[title="sub"]
     text-decoration: none;
     color: #0065FC;
     font-weight: bold;
+    padding: 50px;
     text-align: center;
 }
 
