@@ -23,20 +23,6 @@ body
     font-size: 1em;
 }
 
-a[title="nav"]
-{
-    font-style: normal;
-    text-decoration: none;
-    color: black;
-}
-
-a[title="sub"]
-{
-    font-style: normal;
-    text-decoration: none;
-    color: #0065FC;
-}
-
 /*header*/
 
 .header
@@ -51,28 +37,43 @@ a[title="sub"]
 .navall
 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    margin: 30px;
 }
 
-nav + p
+a[title="nav"]
 {
-    float: right;
+    width: 150px;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+    text-align: center;
+}
+
+a[title="sub"]
+{
+    width: 150px;
+    font-style: normal;
+    align-self: flex-start;
+    text-decoration: none;
     color: #0065FC;
+    font-weight: bold;
+    text-align: center;
 }
 
-.nav
+a[title="nav"]:hover
 {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-    padding-left: 0;
+    border-top: solid 5px #0065FC;
+    color: #0065FC;
+    text-align: center;
 }
 
 ul
 {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-left: 0;
 }
