@@ -43,14 +43,14 @@ li
 
 /*Hébergements*/
 
-#hab-conteneur
+#acc-container
 {
   display: flex;
   flex-wrap: wrap;
   width: 61%;
 }
 
-.hab1
+.acc1
 {
     width: 25%;
     margin: 15px;
