@@ -20,6 +20,21 @@ body
 {
     background-color: white;
     font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+a[title="nav"]
+{
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+a[title="sub"]
+{
+    font-style: normal;
+    text-decoration: none;
+    color: #0065FC;
 }
 
 /*header*/
@@ -40,9 +55,10 @@ body
     justify-content: space-between;
 }
 
-.sub
+nav + p
 {
     float: right;
+    color: #0065FC;
 }
 
 .nav
