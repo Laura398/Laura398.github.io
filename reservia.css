@@ -107,7 +107,7 @@ li
 
 .header-main
 {
-    width: 100%;
+    width: 65%;
 }
 
 form
@@ -194,12 +194,14 @@ aside
     flex-wrap: wrap;
     justify-content: space-around;
     overflow-wrap: break-word;
-    width: 80%;
+    width: 90%;
     height: 145px;
     margin: 30px;
     background-color: white;
     border: solid white 5px;
     border-radius: 20px;
+    text-align: left;
+    padding: 0;
 }
 
 .pic2
@@ -208,6 +210,12 @@ aside
 	height: 135px;
     overflow: hidden;
     object-fit: cover;
+}
+
+p
+{
+    padding: 0px;
+    font-size: 0.9em;
 }
 
 /*Section 2*/
