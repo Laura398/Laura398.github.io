@@ -21,6 +21,22 @@ body
     background-color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
+    margin: 55px;
+}
+
+.fas.fa-star.blue
+{
+    color:#0065FC;
+}
+
+.fas.fa-star.gray
+{
+    color: #F2F2F2;
+}
+
+strong
+{
+    font-weight: bold;
 }
 
 /*header*/
@@ -32,6 +48,11 @@ body
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
+}
+
+.logo
+{
+    margin-top: 25px;
 }
 
 nav
@@ -110,7 +131,11 @@ form
 
 .article
 {
-    width: 61%;
+    width: 60%;
+    padding: 40px;
+    background-color: #F2F2F2;
+    margin-right: 40px;
+    border-radius: 20px;
 }
 
 .hab-conteneur
@@ -124,6 +149,9 @@ form
 {
     width: 25%;
     margin: 15px;
+    background-color: white;
+    border: solid white 5px;
+    border-radius: 20px;
 }
 
 .pic
@@ -138,7 +166,10 @@ form
 
 .aside
 {
-    width: 29%;
+    width: 25%;
+    padding: 40px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
 }
 
 .aside-title-container
@@ -146,6 +177,7 @@ form
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 20px;
 }
 
 .pop1
@@ -154,9 +186,9 @@ form
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    word-wrap: break-word;
     width: 340px;
     height: 145px;
-    margin: 20px;
 }
 
 .pic2
@@ -175,8 +207,15 @@ form
     height: 615px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: space-between;
+}
+
+.act-cont2
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 18%;
 }
 
 .act1
@@ -195,7 +234,7 @@ form
 
 .act2
 {
-    width: 18%;
+    width: 100%;
     height: 240px;
 }
 
@@ -209,7 +248,7 @@ form
 
 .act3
 {
-    width: 18%;
+    width: 100%;
     height: 165px;
 }
 
