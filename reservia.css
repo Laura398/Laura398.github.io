@@ -170,6 +170,7 @@ article
     background-color: white;
     border: solid white 5px;
     border-radius: 20px;
+    box-shadow: 6px 6px 12px #dadada, -6px 6px 12px #dadada;
 }
 
 .pic
@@ -211,6 +212,7 @@ aside
     border: solid white 5px;
     border-radius: 20px;
     text-align: left;
+    box-shadow: 6px 6px 12px #dadada, -6px 6px 12px #dadada;
 }
 
 .pic2
@@ -233,24 +235,20 @@ p
 .section2
 {
     width: 100%;
-    height: 615px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.act-cont2
-{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 18%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 40px;
+    grid-auto-rows: auto;
 }
 
 .act1
 {
-    width: 18%;
+    width: 100%;
     height: 445px;
+    grid-column: 1;
+    grid-row: 1 / 4;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
 }
 
 .pic3
@@ -259,12 +257,17 @@ p
     height: 385px;
     overflow: hidden;
     object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
 
 .act2
 {
     width: 100%;
     height: 240px;
+    grid-column: 2;
+    grid-row: 1 / 3;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
 }
 
 .pic4
@@ -273,12 +276,17 @@ p
     height: 180px;
     overflow: hidden;
     object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
 
 .act3
 {
     width: 100%;
     height: 165px;
+    grid-column: 2;
+    grid-row: 3;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
 }
 
 .pic5
@@ -287,6 +295,37 @@ p
     height: 110px;
     overflow: hidden;
     object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.act4
+{
+    width: 100%;
+    height: 165px;
+    grid-column: 3;
+    grid-row: 1 / 4;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
+}
+
+.act5
+{
+    width: 100%;
+    height: 165px;
+    grid-column: 4;
+    grid-row: 1 / 3;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
+}
+
+.act6
+{
+    width: 100%;
+    height: 165px;
+    grid-column: 4;
+    grid-row: 3;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
 }
 
 /*Footer*/
