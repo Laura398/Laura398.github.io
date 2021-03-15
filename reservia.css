@@ -16,6 +16,14 @@
     font-style: normal;
 }
 
+@font-face
+{
+    font-family: 'Raleway-bolder';
+    src: url('police/Raleway-ExtraBold.ttf');
+    font-weight: bolder;
+    font-style: normal;
+}
+
 body
 {
     background-color: white;
@@ -31,11 +39,6 @@ body
 .fas.fa-star.gray
 {
     color: #F2F2F2;
-}
-
-strong
-{
-    font-weight: bold;
 }
 
 /*header*/
@@ -127,6 +130,28 @@ form
 main
 {
     margin: 55px;
+}
+
+/*Formatage textes*/
+
+h1
+{
+    font-family: 'Raleway-bold', sans-serif;
+}
+
+h2
+{
+    font-family: 'Raleway-bold', sans-serif;
+}
+
+strong
+{
+    font-family: 'Raleway-bold', sans-serif;
+}
+
+b
+{
+    font-family: 'Raleway-bold', sans-serif;
 }
 
 /*Section 1*/
@@ -301,7 +326,6 @@ p
 .act4
 {
     width: 100%;
-    height: 165px;
     grid-column: 3;
     grid-row: 1 / 4;
     border-radius: 20px;
@@ -311,7 +335,6 @@ p
 .act5
 {
     width: 100%;
-    height: 165px;
     grid-column: 4;
     grid-row: 1 / 3;
     border-radius: 20px;
@@ -321,11 +344,16 @@ p
 .act6
 {
     width: 100%;
-    height: 165px;
     grid-column: 4;
     grid-row: 3;
     border-radius: 20px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
+}
+
+.p-act
+{
+    padding-left: 10px;
+    font-family: 'Raleway-bold', sans-serif;
 }
 
 /*Footer*/
