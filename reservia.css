@@ -21,7 +21,6 @@ body
     background-color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
-    margin: 55px;
 }
 
 .fas.fa-star.blue
@@ -40,6 +39,11 @@ strong
 }
 
 /*header*/
+
+header
+{
+    margin: 55px;
+}
 
 .header
 {
@@ -118,6 +122,13 @@ form
     border-radius: 20px;
 }
 
+/*Main*/
+
+main
+{
+    margin: 55px;
+}
+
 /*Section 1*/
 
 .section1
@@ -193,7 +204,6 @@ aside
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    overflow-wrap: break-word;
     width: 90%;
     height: 145px;
     margin: 30px;
@@ -201,13 +211,13 @@ aside
     border: solid white 5px;
     border-radius: 20px;
     text-align: left;
-    padding: 0;
 }
 
 .pic2
 {
     width: 130px;
-	height: 135px;
+	height: 145px;
+    border-radius: 20px 0 0 20px ;
     overflow: hidden;
     object-fit: cover;
 }
@@ -287,6 +297,7 @@ p
     display: flex;
     flex-wrap: wrap;
     justify-content:left;
+    background-color: #F2F2F2;
 }
 
 footer ul
