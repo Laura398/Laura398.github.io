@@ -41,32 +41,7 @@ body
     color: #F2F2F2;
 }
 
-/*header*/
-
-header
-{
-    margin: 55px;
-}
-
-.header
-{
-    max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: relative;
-}
-
-.logo
-{
-    margin-top: 20px;
-}
-
-nav
-{
-    display: flex;
-    flex-wrap: wrap-reverse;
-}
+/*Liens*/
 
 a[title="nav"]
 {
@@ -95,6 +70,64 @@ a[title="nav"]:hover
     border-top: solid 5px #0065FC;
     color: #0065FC;
     text-align: center;
+}
+
+a[title="a-hab"]
+{
+    color: black;
+    text-decoration: none;
+}
+
+a[title="a-pop"]
+{
+    color: black;
+    text-decoration: none;
+}
+
+a[title="a-act"]
+{
+    color: black;
+    text-decoration: none;
+}
+
+a[title="foo"]
+{
+    color: black;
+    text-decoration: none;
+}
+
+a[title="aff"]
+{
+    color: black;
+    text-decoration: none;
+    font-family: 'Raleway-bold';
+}
+
+/*header*/
+
+header
+{
+    margin: 55px;
+}
+
+.header
+{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo
+{
+    margin-top: 20px;
+}
+
+nav
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
 }
 
 ul
@@ -173,7 +206,7 @@ b
 
 article
 {
-    width: 60%;
+    width: 57%;
     padding: 30px 40px 40px 40px;
     background-color: #F2F2F2;
     margin-right: 40px;
@@ -213,7 +246,7 @@ article
 
 aside
 {
-    width: 25%;
+    width: 28%;
     padding: 30px;
     background-color: #F2F2F2;
     border-radius: 20px;
