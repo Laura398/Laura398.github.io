@@ -173,7 +173,7 @@ a[title="aff"]:hover
 
 header
 {
-    margin: 55px;
+    margin: 22px 55px 55px 55px;
 }
 
 .header
@@ -301,6 +301,12 @@ h2
 {
     font-family: 'Raleway-bolder', sans-serif;
     margin: 20px;
+}
+
+h3
+{
+    font-family: 'Raleway-bolder', sans-serif;
+    margin-bottom: 5px;
 }
 
 strong
