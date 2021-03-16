@@ -38,10 +38,10 @@ body
 
 .fas.fa-star.gray
 {
-    color: #F2F2F2;
+    color: #dadada;
 }
 
-/*Liens*/
+/*Links*/
 
 a[title="nav"]
 {
@@ -72,6 +72,23 @@ a[title="nav"]:hover
     text-align: center;
 }
 
+a[title="a-fil"]
+{
+    color: black;
+    text-decoration: none;
+    border-top: solid 3px #dadada;
+    border-right: solid 3px #dadada;
+    border-bottom: solid 3px #dadada;
+    border-radius: 20px;
+    padding: 9px 15px 9px 0;
+}
+
+a[title="a-fil"]:hover
+{
+    background-color: #DEEBFF;
+    border: #DEEBFF;
+}
+
 a[title="a-hab"]
 {
     color: black;
@@ -94,13 +111,16 @@ a[title="foo"]
 {
     color: black;
     text-decoration: none;
+    padding: 10px 0 10px 0;
 }
 
 a[title="aff"]
 {
     color: black;
     text-decoration: none;
-    font-family: 'Raleway-bold';
+    font-family: 'Raleway-bolder';
+    margin-left: 20px;
+    font-size: 1.1em;
 }
 
 /*header*/
@@ -137,6 +157,7 @@ ul
     flex-wrap: wrap;
     justify-content: space-around;
     padding-left: 0;
+    align-items: center;
 }
 
 li
@@ -158,6 +179,48 @@ form
     border-radius: 20px;
 }
 
+/*Filter Icons*/
+
+.fas.fa-money-bill-wave
+{
+    border: solid 3px #DEEBFF;
+    border-radius: 25px;
+    padding: 10px; 
+    margin-right: 9px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+.fas.fa-child
+{
+    border: solid 3px #DEEBFF;
+    border-radius: 25px;
+    padding: 10px; 
+    margin-right: 9px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+.fas.fa-heart
+{
+    border: solid 3px #DEEBFF;
+    border-radius: 25px;
+    padding: 10px; 
+    margin-right: 9px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+.fas.fa-dog
+{
+    border: solid 3px #DEEBFF;
+    border-radius: 25px;
+    padding: 10px; 
+    margin-right: 9px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
 /*Main*/
 
 main
@@ -169,23 +232,23 @@ main
 
 h1
 {
-    font-family: 'Raleway-bold', sans-serif;
+    font-family: 'Raleway-bolder', sans-serif;
 }
 
 h2
 {
-    font-family: 'Raleway-bold', sans-serif;
+    font-family: 'Raleway-bolder', sans-serif;
 }
 
 strong
 {
-    font-family: 'Raleway-bold', sans-serif;
+    font-family: 'Raleway-bolder', sans-serif;
     font-size: 1.2em;
 }
 
 b
 {
-    font-family: 'Raleway-bold', sans-serif;
+    font-family: 'Raleway-bolder', sans-serif;
 }
 
 /*Section 1*/
@@ -206,8 +269,8 @@ b
 
 article
 {
-    width: 57%;
-    padding: 30px 40px 40px 40px;
+    width: 61%;
+    padding: 30px 30px 30px 30px;
     background-color: #F2F2F2;
     margin-right: 40px;
     border-radius: 20px;
@@ -219,13 +282,14 @@ article
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .hab1
 {
     width: 28%;
     height: 200px;
-    margin: 15px;
+    margin: 17px;
     background-color: white;
     border: solid white 5px;
     border-radius: 20px;
@@ -247,7 +311,7 @@ article
 aside
 {
     width: 28%;
-    padding: 30px;
+    padding: 40px 40px 40px 10px;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -257,7 +321,7 @@ aside
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    margin: 0 30px 0 30px;
 }
 
 .pop1
@@ -425,7 +489,7 @@ p
 .p-act
 {
     padding-left: 10px;
-    font-family: 'Raleway-bold', sans-serif;
+    font-family: 'Raleway-bolder', sans-serif;
 }
 
 /*Footer*/
@@ -444,4 +508,11 @@ footer ul
     list-style-type: none;
     display:list-item;
     margin-left: 50px;
+    font-size: 0.8em;
+    padding: 20px;
+}
+
+footer li
+{
+    padding-top: 10px;
 }
