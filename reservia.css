@@ -34,11 +34,13 @@ body
 .fas.fa-star.blue
 {
     color:#0065FC;
+    font-size: 0.85em;
 }
 
 .fas.fa-star.gray
 {
     color: #dadada;
+    font-size: 0.85em;
 }
 
 /*Formatage textes*/
@@ -76,7 +78,7 @@ b
 p
 {
     padding: 0;
-    font-size: 0.8em;
+    font-size: 0.9em;
     line-height: 20px;
 }
 
@@ -464,7 +466,7 @@ aside
 
 .pop1-text
 {
-    margin-left: -50px;
+    margin-left: -30px;
 }
 
 /*Section 2*/
@@ -640,8 +642,9 @@ aside
 
 .p-act
 {
-    padding-left: 10px;
+    padding-left: 20px;
     font-family: 'Raleway-bolder', sans-serif;
+    font-size: 1em;
 }
 
 /*Footer*/
@@ -657,10 +660,11 @@ aside
 
 footer ul
 {
+    width: 25%;
     list-style-type: none;
     display:list-item;
     margin-left: 50px;
-    font-size: 0.8em;
+    font-size: 0.85em;
     padding: 20px;
 }
 
