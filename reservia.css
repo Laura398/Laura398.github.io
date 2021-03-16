@@ -41,6 +41,50 @@ body
     color: #dadada;
 }
 
+/*Formatage textes*/
+
+h1
+{
+    font-family: 'Raleway-bolder', sans-serif;
+    font-size: 1.4em;
+    margin-bottom: -20px
+}
+
+h2
+{
+    font-family: 'Raleway-bolder', sans-serif;
+    margin: 20px 0 10px 0;
+}
+
+h3
+{
+    font-family: 'Raleway-bolder', sans-serif;
+    margin-bottom: 5px;
+}
+
+strong
+{
+    font-family: 'Raleway-bolder', sans-serif;
+    font-size: 1.2em;
+}
+
+b
+{
+    font-family: 'Raleway-bolder', sans-serif;
+}
+
+p
+{
+    padding: 0;
+    font-size: 0.8em;
+    line-height: 20px;
+}
+
+.header-main p
+{
+    font-size: 1em;
+}
+
 /*Links*/
 
 a[title="Téléportez-vous"]
@@ -51,6 +95,7 @@ a[title="Téléportez-vous"]
     color: black;
     padding: 50px;
     text-align: center;
+    font-size: 0.9em;
 }
 
 a[title="Téléportez-vous"]:hover
@@ -58,6 +103,7 @@ a[title="Téléportez-vous"]:hover
     border-top: solid 5px #0065FC;
     color: #0065FC;
     text-align: center;
+    transition: .3s;
 }
 
 a[title="Inscrivez-vous"]
@@ -67,14 +113,16 @@ a[title="Inscrivez-vous"]
     align-self: flex-start;
     text-decoration: none;
     color: #0065FC;
-    font-weight: bold;
+    font-family: 'Raleway-bolder';
     padding: 50px;
     text-align: center;
+    font-size: 0.9em;
 }
 
 a[title="Inscrivez-vous"]:hover
 {
-    font-size: 1.1em;
+    font-size: 1em;
+    transition: .3s;
 }
 
 a[title="Filtrez votre recherche"]
@@ -92,6 +140,7 @@ a[title="Filtrez votre recherche"]:hover
 {
     background-color: #DEEBFF;
     border: #DEEBFF;
+    transition: .3s;
 }
 
 a[title="Découvrez le logement"]
@@ -111,6 +160,7 @@ a[title="Découvrez le logement"]:hover
 {
     background-color: #DEEBFF;
     border-color: #DEEBFF;
+    transition: .3s;
 }
 
 a[title="Découvrez le lieu"]
@@ -135,6 +185,7 @@ a[title="Découvrez le lieu"]:hover
 {
     background-color: #DEEBFF;
     border-color: #DEEBFF;
+    transition: .3s;
 }
 
 a[title="Découvrez l'activité"]
@@ -153,6 +204,7 @@ a[title="En savoir plus"]
 a[title="En savoir plus"]:hover
 {
     font-family: 'Raleway-bold';
+    transition: .3s;
 }
 
 a[title="Partez à la découverte de nos hébergements"]
@@ -173,7 +225,7 @@ a[title="Partez à la découverte de nos hébergements"]:hover
 
 header
 {
-    margin: 22px 55px 55px 55px;
+    margin: 22px 0 55px 55px;
 }
 
 .header
@@ -183,6 +235,11 @@ header
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
+}
+
+h1 + p
+{
+    margin-top: -10px;
 }
 
 .logo
@@ -211,20 +268,64 @@ li
 {
     padding-right: 25px;
     padding-left: 0;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .header-main
 {
     width: 70%;
+    line-height: 80px;
 }
 
-form
+/*Form*/
+
+.fas.fa-map-marker-alt
 {
-    width: 420px;
-    height: 50px;
-    border: solid silver;
-    border-radius: 20px;
+    border: solid 2px #F2F2F2;
+    border-radius: 20px 0 0 20px;
+    background-color: #F2F2F2;
+    padding: 16px 20px 17px 20px;
+    font-size: 1.2em;
+}
+
+ .custom-home-search input
+ {
+    padding: 15px;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    font-size: 1em;
+    font-family: 'Raleway-bold';
+    border-right: none;
+    border-left: none;
+    margin-left: -5px;
+    margin-right: -5px;
+ }
+
+ .custom-home-search input[type=submit]
+ {
+    background: #0065FC;
+    border: 2px solid #0065FC;
+    color: white;
+    font-family: 'Raleway-bold';
+    font-size: 1em;
+    padding: 14px 20px 15px 20px;
+    border-radius: 0 10px 10px 0;
+ }
+
+ .custom-home-search input[type=submit]:hover
+ {
+    background: #DEEBFF;
+    border: solid 2px #DEEBFF;
+    color: black;
+    transition: .3s;
+ }
+
+ .custom-home-search input[type=submit]:focus
+{
+    background: #DEEBFF;
+    border: #DEEBFF;
+    color: black;
+    transition: .3s;
 }
 
 /*Filter Icons*/
@@ -289,44 +390,13 @@ main
     margin: 55px;
 }
 
-/*Formatage textes*/
-
-h1
-{
-    font-family: 'Raleway-bolder', sans-serif;
-    font-size: 1.4em;
-}
-
-h2
-{
-    font-family: 'Raleway-bolder', sans-serif;
-    margin: 20px;
-}
-
-h3
-{
-    font-family: 'Raleway-bolder', sans-serif;
-    margin-bottom: 5px;
-}
-
-strong
-{
-    font-family: 'Raleway-bolder', sans-serif;
-    font-size: 1.2em;
-}
-
-b
-{
-    font-family: 'Raleway-bolder', sans-serif;
-}
-
 /*Section 1*/
 
 .section1
 {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 0;
 }
 
 /*Hébergements*/
@@ -397,14 +467,12 @@ aside
     margin-left: -50px;
 }
 
-p
-{
-    padding: 0;
-    font-size: 0.8em;
-    line-height: 20px;
-}
-
 /*Section 2*/
+
+#act-ancre
+{
+    margin: 60px 0 20px 0;
+}
 
 .section2
 {
@@ -424,7 +492,7 @@ p
     grid-row: 1 / 4;
     border-radius: 20px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-    transition: transform .2s; /* Animation */
+    transition: transform .3s; /* Animation */
 }
 
 .act1:hover
