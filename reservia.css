@@ -441,7 +441,7 @@ article
 aside
 {
     width: 28%;
-    padding: 40px 40px 40px 10px;
+    padding: 40px 40px 10px 10px;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -637,7 +637,7 @@ aside
     overflow: hidden;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 
 .p-act
