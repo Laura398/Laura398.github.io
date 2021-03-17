@@ -29,6 +29,7 @@ body
     background-color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
+    justify-content: center;
 }
 
 .fas.fa-star.blue
@@ -41,6 +42,11 @@ body
 {
     color: #dadada;
     font-size: 0.85em;
+}
+
+.invisible
+{
+    display: none;
 }
 
 /*Formatage textes*/
@@ -410,7 +416,7 @@ main
 
 article
 {
-    width: 61%;
+    width: 60%;
     padding: 30px 30px 30px 30px;
     background-color: #F2F2F2;
     margin-right: 40px;
@@ -440,7 +446,7 @@ article
 
 aside
 {
-    width: 28%;
+    width: 27%;
     padding: 40px 40px 10px 10px;
     background-color: #F2F2F2;
     border-radius: 20px;
