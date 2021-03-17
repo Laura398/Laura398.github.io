@@ -118,7 +118,7 @@ a[title="Inscrivez-vous"]
 {
     width: 150px;
     font-style: normal;
-    align-self: flex-start;
+    align-self: flex-end;
     text-decoration: none;
     color: #0065FC;
     font-family: 'Raleway-bolder';
@@ -252,6 +252,7 @@ h1 + p
 
 .logo
 {
+    position: absolute;
     margin-top: 20px;
 }
 
@@ -259,14 +260,16 @@ nav
 {
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    min-width: 100%;
 }
 
 ul
 {
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
     padding-left: 0;
     align-items: center;
     margin: 20px 0 20px 0;
@@ -684,4 +687,33 @@ footer ul
 footer li
 {
     padding-top: 10px;
+}
+
+/*Media Queries*/
+
+@media all and (max-width: 1050px)
+{
+
+    /*Header*/ 
+
+    .logo
+    {
+    }
+
+    nav
+    {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        min-width: 40%;
+    }
+
+    a[title="Inscrivez-vous"]
+    {
+        width: 40%;
+    }
+
+    a[title="Téléportez-vous"]
+    {
+        width: 50%;
+    }
 }
