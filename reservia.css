@@ -261,6 +261,7 @@ nav
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: flex-end;
+    margin-top: 10px;
     min-width: 100%;
 }
 
