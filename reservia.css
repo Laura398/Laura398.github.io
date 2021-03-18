@@ -44,6 +44,20 @@ body
     font-size: 0.85em;
 }
 
+.fas.fa-star.blue2
+{
+    color:#0065FC;
+    font-size: 0.85em;
+    margin-top: 45px;
+}
+
+.fas.fa-star.gray2
+{
+    color: #dadada;
+    font-size: 0.85em;
+    margin-top: 45px;
+}
+
 .invisible
 {
     display: none;
@@ -398,6 +412,21 @@ main
     margin: 55px;
 }
 
+figure
+{
+    width: 100%;
+    height: 100%;
+    margin: 13px 0 0 0;
+}
+
+figcaption
+{
+    font-size: 0.9em;
+    padding-top: 8px;
+    line-height: 23px;
+    margin: 0 10px 10px 10px;
+}
+
 /*Section 1*/
 
 .section1
@@ -409,18 +438,13 @@ main
 
 /*Hébergements*/
 
-.pic-text
-{
-    margin: 0 10px 10px 10px;
-}
-
 article
 {
     width: 60%;
     padding: 30px 30px 30px 30px;
     background-color: #F2F2F2;
     margin-right: 40px;
-    border-radius: 20px;
+    border-radius: 20x;
 }
 
 .hab-conteneur
@@ -467,12 +491,14 @@ aside
     border-radius: 20px 0 0 20px ;
     overflow: hidden;
     object-fit: cover;
-    margin-top: 3px;
+    margin-top: -13px;
+    margin-right: 20px;
+    float: left;
 }
 
-.pop1-text
+figcaption[class="text"]
 {
-    margin-left: -30px;
+    margin-top: -15px;
 }
 
 /*Section 2*/
@@ -510,7 +536,6 @@ aside
 .act1
 {
     width: 21%;
-    height: 445px;
     border-radius: 20px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
     transition: transform .3s; /* Animation */
@@ -534,9 +559,8 @@ aside
 .act2
 {
     width: 100%;
-    height: 240px;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
     transition: transform .2s; /* Animation */
 }
@@ -559,9 +583,8 @@ aside
 .act3
 {
     width: 100%;
-    height: 165px;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 25px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
     transition: transform .2s; /* Animation */
 }
@@ -609,7 +632,7 @@ aside
 {
     width: 100%;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
     transition: transform .2s; /* Animation */
 }
@@ -633,7 +656,7 @@ aside
 {
     width: 100%;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 25px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
     transition: transform .2s; /* Animation */
 }
