@@ -169,7 +169,7 @@ a[title="Découvrez le logement"]
 {
     color: black;
     text-decoration: none;
-    width: 28%;
+    width: 230px;
     min-height: 200px;
     margin: 17px;
     background-color: white;
@@ -193,9 +193,9 @@ a[title="Découvrez le lieu"]
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 90%;
+    width: 350px;
     height: 145px;
-    margin: 30px;
+    margin: 25px;
     background-color: white;
     border: solid white 5px;
     border-radius: 20px;
@@ -290,6 +290,11 @@ nav ul
     margin: 20px 0 20px 0;
 }
 
+nav ul li
+{
+    padding-bottom: 50px;
+}
+
 ul
 {
     list-style-type: none;
@@ -310,7 +315,7 @@ li
 
 .header-main
 {
-    width: 70%;
+    width: 100%;
     line-height: 80px;
 }
 
@@ -338,32 +343,7 @@ li
     margin-right: -5px;
  }
 
- .custom-home-search input[type=submit]
- {
-    background: #0065FC;
-    border: 2px solid #0065FC;
-    color: white;
-    font-family: 'Raleway-bold';
-    font-size: 1em;
-    padding: 14px 20px 15px 20px;
-    border-radius: 0 10px 10px 0;
- }
 
- .custom-home-search input[type=submit]:hover
- {
-    background: #DEEBFF;
-    border: solid 2px #DEEBFF;
-    color: black;
-    transition: .3s;
- }
-
- .custom-home-search input[type=submit]:focus
-{
-    background: #DEEBFF;
-    border: #DEEBFF;
-    color: black;
-    transition: .3s;
-}
 
 /*Filter Icons*/
 
@@ -447,7 +427,7 @@ figcaption
 .section1
 {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     margin-top: 0;
 }
 
@@ -459,7 +439,7 @@ article
     padding: 30px 30px 30px 30px;
     background-color: #F2F2F2;
     margin-right: 40px;
-    border-radius: 20x;
+    border-radius: 20px;
 }
 
 .hab-conteneur
@@ -485,7 +465,7 @@ article
 
 aside
 {
-    width: 27%;
+    width: 28%;
     padding: 40px 40px 10px 10px;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -497,6 +477,13 @@ aside
     justify-content: space-between;
     align-items: center;
     margin: 0 10px 0 20px;
+}
+
+.pop-container
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .pic2
@@ -726,25 +713,141 @@ footer li
 
 /*Media Queries*/
 
+.custom-home-search input[id="rechercher"]
+{
+   background: #0065FC;
+   border: 2px solid #0065FC;
+   color: white;
+   font-family: 'Raleway-bold';
+   font-size: 1em;
+   padding: 14px 20px 15px 20px;
+   border-radius: 0 10px 10px 0;
+}
+
+.custom-home-search input[id="rechercher"]:hover
+{
+   background: #DEEBFF;
+   border: solid 2px #DEEBFF;
+   color: black;
+   transition: .3s;
+}
+
+.custom-home-search input[id="rechercher"]:focus
+{
+   background: #DEEBFF;
+   border: #DEEBFF;
+   color: black;
+   transition: .3s;
+}
+
+.custom-home-search button[name="loupe"]
+{
+    display: none;
+}
+
+@media all and (max-width: 1300px)
+{
+    main
+    {
+        margin: 0;
+    }
+    
+    article
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        background-color: white;
+    }
+
+    a[title="Découvrez le logement"]
+    {
+        width: 340px;
+    }
+
+    aside
+    {
+        width: 100%;
+    }
+}
+
 @media all and (max-width: 1050px)
 {
 
+    .custom-home-search button[name="loupe"]
+    {
+        display: inline;
+        background: #0065FC;
+        border: 2px solid #0065FC;
+        color: white;
+        font-family: 'Raleway-bold';
+        font-size: 1em;
+        padding: 14px 20px 15px 20px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .custom-home-search button[name="loupe"]:hover
+    {
+        background: #DEEBFF;
+        border: solid 2px #DEEBFF;
+        color: black;
+        transition: .3s;
+    }
+
+    .custom-home-search button[name="loupe"]:focus
+    {
+        background: #DEEBFF;
+        border: #DEEBFF;
+        color: black;
+        transition: .3s;
+    }
+
+    .custom-home-search input[id="rechercher"]
+    {
+        display: none;
+    }
+
     /*Header*/ 
+
+    body
+    {
+        margin: 0;
+    }
+
+    header
+    {
+        margin-left: 20px;
+    }
 
     nav
     {
         display: flex;
         flex-wrap: wrap-reverse;
         width: 100%;
+        margin-left: -60px;
+        padding-left: 60px;
     }
 
     a[title="Inscrivez-vous"]
     {
-        width: 40%;
+        width: 100%;
+        
     }
 
     a[title="Téléportez-vous"]
     {
         width: 50%;
+        border-bottom: solid 3px #dadada;
+        margin-bottom: -50px;
+        margin-left: -40px;
+    }
+
+    a[title="Téléportez-vous"]:hover
+    {
+        border-top: none;
+        border-bottom: solid 3px #0065FC;
+        margin-bottom: -50px;
+        color: #0065FC;
+        text-align: center;
+        transition: .3s;
     }
 }
