@@ -537,20 +537,20 @@ figcaption[class="text"]
 
 .act1
 {
-    width: 21%;
+    width: 305px;
     border-radius: 20px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-    transition: transform .3s; /* Animation */
 }
 
 .act1:hover
 {
     transform: scale(1.05);
+    transition: .3s; /* Animation */
 }
 
 .pic3
 {
-    width: 100%;
+    width: 305px;
     height: 385px;
     overflow: hidden;
     object-fit: cover;
@@ -560,21 +560,21 @@ figcaption[class="text"]
 
 .act2
 {
-    width: 100%;
+    width: 305px;
     border-radius: 20px;
     margin-bottom: 25px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-    transition: transform .2s; /* Animation */
 }
 
 .act2:hover
 {
     transform: scale(1.05);
+    transition: .2s; /* Animation */
 }
 
 .pic4
 {
-    width: 100%;
+    width: 305px;
     height: 180px;
     overflow: hidden;
     object-fit: cover;
@@ -584,7 +584,7 @@ figcaption[class="text"]
 
 .act3
 {
-    width: 100%;
+    width: 305px;
     border-radius: 20px;
     margin-top: 25px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
@@ -598,7 +598,7 @@ figcaption[class="text"]
 
 .pic5
 {
-    width: 100%;
+    width: 305px;
     height: 110px;
     overflow: hidden;
     object-fit: cover;
@@ -608,7 +608,7 @@ figcaption[class="text"]
 
 .act4
 {
-    width: 21%;
+    width: 305px;
     justify-self: center;
     border-radius: 20px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
@@ -622,7 +622,7 @@ figcaption[class="text"]
 
 .pic6
 {
-    width: 100%;
+    width: 305px;
     height: 385px;
     overflow: hidden;
     object-fit: cover;
@@ -632,7 +632,7 @@ figcaption[class="text"]
 
 .act5
 {
-    width: 100%;
+    width: 305px;
     border-radius: 20px;
     margin-bottom: 25px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
@@ -646,7 +646,7 @@ figcaption[class="text"]
 
 .pic7
 {
-    width: 100%;
+    width: 305px;
     height: 180px;
     overflow: hidden;
     object-fit: cover;
@@ -656,7 +656,7 @@ figcaption[class="text"]
 
 .act6
 {
-    width: 100%;
+    width: 305px;
     border-radius: 20px;
     margin-top: 25px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
@@ -670,7 +670,7 @@ figcaption[class="text"]
 
 .pic8
 {
-    width: 100%;
+    width: 305px;
     height: 110px;
     overflow: hidden;
     object-fit: cover;
@@ -745,7 +745,7 @@ footer li
     display: none;
 }
 
-@media all and (max-width: 1300px)
+@media all and (max-width: 1400px)
 {
     main
     {
@@ -754,7 +754,7 @@ footer li
     
     article
     {
-        width: 100%;
+        width: 90%;
         margin-bottom: 40px;
     }
 
@@ -765,12 +765,33 @@ footer li
 
     aside
     {
-        width: 100%;
+        width: 90%;
+        margin-bottom: 40px;
+
     }
+
+    .section2
+    {
+        margin-bottom: 40px;
+    }
+}
+
+@media all and (max-width: 1250px)
+{
+
 }
 
 @media all and (max-width: 1100px)
 {
+
+}
+
+@media all and (max-width: 800px)
+{
+    body
+    {
+        width: 100%;
+    }
 
     h1
     {
@@ -862,8 +883,19 @@ footer li
         background-color: white;
     }
 
+    aside
+    {
+        border-radius: 0;
+    }
+
     span[class="ft"]
     {
         padding-right: 900px;
+    }
+
+    .section2
+    {
+        width: 100%;
+        display: inline-block;
     }
 }
