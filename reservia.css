@@ -538,7 +538,7 @@ figcaption[class="text"]
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
-    margin-left: 300px;
+    margin-left: 250px;
 }
 
 .column2
@@ -555,6 +555,8 @@ figcaption[class="text"]
     width: 21%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .act1
@@ -562,6 +564,8 @@ figcaption[class="text"]
     width: 305px;
     border-radius: 20px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
+    margin-right: 20px;
+    margin-left: -30px;
 }
 
 .act1:hover
@@ -610,12 +614,12 @@ figcaption[class="text"]
     border-radius: 20px;
     margin-top: 25px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-    transition: transform .2s; /* Animation */
 }
 
 .act3:hover
 {
     transform: scale(1.05);
+    transition: .2s; /* Animation */
 }
 
 .pic5
@@ -634,12 +638,15 @@ figcaption[class="text"]
     justify-self: center;
     border-radius: 20px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-    transition: transform .2s; /* Animation */
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
 .act4:hover
 {
     transform: scale(1.05);
+    transition: .2s; /* Animation */
 }
 
 .pic6
@@ -658,12 +665,12 @@ figcaption[class="text"]
     border-radius: 20px;
     margin-bottom: 25px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-    transition: transform .2s; /* Animation */
 }
 
 .act5:hover
 {
     transform: scale(1.05);
+    transition: .2s; /* Animation */
 }
 
 .pic7
@@ -682,12 +689,12 @@ figcaption[class="text"]
     border-radius: 20px;
     margin-top: 25px;
     box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-    transition: transform .2s; /* Animation */
 }
 
 .act6:hover
 {
     transform: scale(1.05);
+    transition: .2s; /* Animation */
 }
 
 .pic8
