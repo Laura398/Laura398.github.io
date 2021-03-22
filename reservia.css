@@ -527,16 +527,18 @@ figcaption[class="text"]
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items:stretch;
+    align-items: stretch;
+    margin-left: -300px;
 }
 
 .col34
 {
-    width:30%;
+    width: 30%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items:stretch;
+    align-items: stretch;
+    margin-left: 300px;
 }
 
 .column2
@@ -810,6 +812,38 @@ footer li
         display: inline-block;
     }
 
+    .col12
+    {
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .col34
+    {
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .column2
+    {
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .column4
+    {
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+
     #act-ancre
 {
     padding-left: 50px;
@@ -818,73 +852,79 @@ footer li
     .act1
     {
         height: 175px;
-        width: 305px;
+        width: 350px;
         margin: 20px;
     }
 
     .act2
     {
-        height: 190px;
-        width: 335px;
-        margin: 20px;
+        height: 175px;
+        width: 350px;
+        margin: 20px 20px 40px 20px;
     }
 
     .act3
     {
-        height: 190px;
-        width: 335px;
+        height: 175px;
+        width: 350px;
         margin: 20px;
     }
 
     .act4
     {
         height: 175px;
-        width: 305px;
+        width: 350px;
         margin: 20px;
     }
 
     .act5
     {
-        height: 190px;
-        width: 335px;
-        margin: 20px;
+        height: 175px;
+        width: 350px;
+        margin: 20px 20px 40px 20px;
     }
 
     .act6
     {
-        height: 190px;
-        width: 335px;
+        height: 175px;
+        width: 350px;
         margin: 20px;
     }
 
     .pic3
     {
         height: 135px;
+        width: 350px;
     }
 
     .pic4
     {
         height: 135px;
+        width: 350px;
     }
 
     .pic5
     {
         height: 135px;
+        width: 350px;
     }
 
     .pic6
     {
         height: 135px;
+        width: 350px;
     }
 
     .pic7
     {
         height: 135px;
+        width: 350px;
     }
 
     .pic8
     {
         height: 135px;
+        width: 350px;
     }
 }
 
