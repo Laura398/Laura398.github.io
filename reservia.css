@@ -968,7 +968,7 @@ footer li
     }
 }
 
-@media all and (max-width: 800px)
+@media all and (max-width: 750px)
 {
     body
     {
@@ -1048,6 +1048,7 @@ footer li
         border-bottom: solid 3px #dadada;
         margin-bottom: -50px;
         margin-left: -40px;
+        padding-left: 60px;
     }
 
     a[title="Téléportez-vous"]:hover
