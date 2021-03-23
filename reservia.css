@@ -895,11 +895,10 @@ footer li
     }
 
     #act-ancre
-{
-    padding-left: 50px;
-    
-    margin-top: -20px;
-}
+    {
+        padding-left: 50px;
+        margin-top: -20px;
+    }
 
     .act1
     {
