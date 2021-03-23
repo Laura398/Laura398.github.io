@@ -779,11 +779,18 @@ footer li
     {
         margin: 0;
     }
+
+    figcaption
+    {
+        font-size: 0.8em;
+        line-height: normal;
+    }
     
     article
     {
         width: 90%;
         margin-bottom: 40px;
+        margin-left: -10px;
     }
 
     a[title="Découvrez le logement"]
@@ -806,6 +813,11 @@ footer li
 
 @media all and (max-width: 1250px)
 {
+    a[title="Inscrivez-vous"]
+    {
+        width: 100%;
+    }
+
     #act-ancre
     {
         padding-left: 100px;
@@ -844,44 +856,42 @@ footer li
 
 @media all and (max-width: 900px)
 {
+
            /*Section 2*/
 
     .section2
     {
         width: 100%;
         display: inline-block;
+        justify-content: center;
     }
 
     .col12
     {
         width: 100%;
         display: inline-block;
-        padding: 0;
-        margin: 0;
+        justify-content: center;
     }
 
     .col34
     {
         width: 100%;
         display: inline-block;
-        padding: 0;
-        margin: 0;
+        justify-content: center;
     }
 
     .column2
     {
         width: 100%;
         display: inline-block;
-        padding: 0;
-        margin: 0;
+        justify-content: center;
     }
 
     .column4
     {
         width: 100%;
         display: inline-block;
-        padding: 0;
-        margin: 0;
+        justify-content: center;
     }
 
     #act-ancre
@@ -970,7 +980,7 @@ footer li
     }
 }
 
-@media all and (max-width: 750px)
+@media all and (max-width: 650px)
 {
     body
     {
@@ -1034,8 +1044,6 @@ footer li
         display: flex;
         flex-wrap: wrap-reverse;
         width: 100%;
-        margin-left: -60px;
-        padding-left: 60px;
     }
 
     a[title="Inscrivez-vous"]
