@@ -809,6 +809,23 @@ footer li
     {
         margin-bottom: 40px;
     }
+
+    figcaption[class="text"]
+    {
+        padding-top: 15px;
+        font-size: 0.9em;
+    }
+
+    figcaption[class="pic-text"]
+    {
+        padding-top: 15px;
+        font-size: 0.9em;
+    }
+
+    figcaption[class="p-act"]
+    {
+        padding-top: 10px;
+    }
 }
 
 @media all and (max-width: 1250px)
@@ -857,7 +874,7 @@ footer li
 @media all and (max-width: 900px)
 {
 
-           /*Section 2*/
+    /*Section 2*/
 
     .section2
     {
