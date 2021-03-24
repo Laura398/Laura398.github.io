@@ -942,7 +942,7 @@ footer li
     {
         height: 175px;
         width: 350px;
-        margin: 20px;
+        margin: -30px 20px 20px 20px;
     }
 
     .act5
@@ -993,6 +993,11 @@ footer li
     {
         height: 135px;
         width: 350px;
+    }
+
+    #assistance
+    {
+        margin-top: -10px;
     }
 }
 
@@ -1121,11 +1126,6 @@ footer li
     {
         padding: 0;
         margin: 0;
-    }
-
-    #assistance
-    {
-        margin-top: -10px;
-    }
+    }    
 
 }
