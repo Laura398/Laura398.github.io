@@ -1015,6 +1015,8 @@ footer li
         margin-bottom: 20px;
     }
 
+    /*Barre de recherche*/
+
     .custom-home-search button[name="loupe"]
     {
         display: inline;
@@ -1127,5 +1129,35 @@ footer li
         padding: 0;
         margin: 0;
     }    
+
+}
+
+@media all and (max-width: 380px)
+{
+    h1
+    {
+        font-size: 1.5em;
+    }
+
+    /*Filtres*/
+
+    ul li b
+    {
+        font-size: 0.70em;
+    }
+
+
+    /*Populaires*/
+    
+    a[title="Découvrez le lieu"]
+    {
+        width: 700px;
+        font-size: 0.95em;
+        margin: 10px 0 10px 15px;
+    }
+
+    /*Section 2*/
+
+    
 
 }
