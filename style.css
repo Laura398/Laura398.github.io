@@ -32,6 +32,8 @@ body
     justify-content: center;
 }
 
+/* Formatage des étoiles*/
+
 .fas.fa-star.blue
 {
     color:#0065FC;
@@ -69,7 +71,7 @@ h1
 {
     font-family: 'Raleway-bolder', sans-serif;
     font-size: 1.4em;
-    margin-bottom: -20px
+    margin-bottom: 0;
 }
 
 h2
@@ -110,18 +112,19 @@ p
 
 /*Links*/
 
-a[title="Téléportez-vous"]
+a[title="Cliquez ici pour découvrir les hébergements"], a[title="Cliquez ici pour découvrir les activités"]
 {
-    width: 150px;
     font-style: normal;
     text-decoration: none;
+    font-family: 'Raleway bold';
     color: black;
     padding: 50px;
+    margin: 0;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
-a[title="Téléportez-vous"]:hover
+a[title="Cliquez ici pour découvrir les hébergements"]:hover, a[title="Cliquez ici pour découvrir les activités"]:hover
 {
     border-top: solid 5px #0065FC;
     color: #0065FC;
@@ -131,15 +134,15 @@ a[title="Téléportez-vous"]:hover
 
 a[title="Inscrivez-vous"]
 {
-    width: 150px;
-    font-style: normal;
-    align-self: flex-end;
-    text-decoration: none;
+    position: absolute;
+    margin: 30px 0 0 -100px;
+    padding: 0;
+    width: 100%;
     color: #0065FC;
-    font-family: 'Raleway-bolder';
-    padding: 50px;
-    text-align: center;
-    font-size: 0.9em;
+    font-family: 'Raleway-bolder', sans-serif;
+    text-decoration: none;
+    text-align: right;
+    font-size: 1em;
 }
 
 a[title="Inscrivez-vous"]:hover
@@ -226,7 +229,7 @@ a[title="En savoir plus"]
 
 a[title="En savoir plus"]:hover
 {
-    font-family: 'Raleway-bold';
+    font-family: 'Raleway-bold', sans-serif;
     transition: .3s;
 }
 
@@ -234,7 +237,7 @@ a[title="Partez à la découverte de nos hébergements"]
 {
     color: black;
     text-decoration: none;
-    font-family: 'Raleway-bolder';
+    font-family: 'Raleway-bolder', sans-serif;
     margin-left: 20px;
     font-size: 1.1em;
 }
@@ -276,7 +279,7 @@ nav
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: flex-end;
-    margin-top: 10px;
+    margin: 10px 0 0 -200px;
     min-width: 100%;
 }
 
@@ -293,7 +296,8 @@ nav ul
 
 nav ul li
 {
-    padding-bottom: 50px;
+    width: 200px;
+    padding: 0;
 }
 
 ul
@@ -337,7 +341,7 @@ li
     border-top: 2px solid #f2f2f2;
     border-bottom: 2px solid #f2f2f2;
     font-size: 1em;
-    font-family: 'Raleway-bold';
+    font-family: 'Raleway-bold', sans-serif;
     border-right: none;
     border-left: none;
     margin-left: -5px;
@@ -746,7 +750,7 @@ footer li
    background: #0065FC;
    border: 2px solid #0065FC;
    color: white;
-   font-family: 'Raleway-bold';
+   font-family: 'Raleway-bold', sans-serif;
    font-size: 1em;
    padding: 14px 20px 15px 20px;
    border-radius: 0 10px 10px 0;
@@ -1023,7 +1027,7 @@ footer li
         background: #0065FC;
         border: 2px solid #0065FC;
         color: white;
-        font-family: 'Raleway-bold';
+        font-family: 'Raleway-bold', sans-serif;
         font-size: 1em;
         padding: 14px 20px 15px 20px;
         border-radius: 0 10px 10px 0;
@@ -1075,7 +1079,7 @@ footer li
         
     }
 
-    a[title="Téléportez-vous"]
+    a[title="Cliquez ici pour découvrir les hébergements"], a[title="Cliquez ici pour découvrir les activités"]
     {
         width: 50%;
         border-bottom: solid 3px #dadada;
@@ -1084,7 +1088,7 @@ footer li
         padding-left: 60px;
     }
 
-    a[title="Téléportez-vous"]:hover
+    a[title="Cliquez ici pour découvrir les hébergements"]:hover, a[title="Cliquez ici pour découvrir les activités"]:hover
     {
         border-top: none;
         border-bottom: solid 3px #0065FC;
