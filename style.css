@@ -997,7 +997,7 @@ footer li
 
     #assistance
     {
-        margin-top: -10px;
+        margin-top: 0;
     }
 }
 
@@ -1136,28 +1136,216 @@ footer li
 {
     h1
     {
-        font-size: 1.5em;
+        font-size: 1.4em;
+        line-height: 30px;
+    }
+
+    h2
+    {
+        padding: 0;
     }
 
     /*Filtres*/
 
     ul li b
     {
-        font-size: 0.70em;
+        font-size: 0.85em;
     }
 
+    .header-main
+{
+    width: 100%;
+    line-height: 60px;
+}
+
+    .ft
+    {
+        padding: 0 10px 0 0;
+    }
+
+    a[title="Filtrez votre recherche"]
+    {
+        padding: 7px 13px 7px 0;
+        margin: 0;
+    }
+
+    /*Filter Icons*/
+
+.fas.fa-money-bill-wave
+{
+    border: solid 3px #DEEBFF;
+    border-radius: 25px;
+    padding: 8px; 
+    margin-right: 9px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    font-size: 1.1em;
+}
+
+.fas.fa-child
+{
+    border: solid 3px #DEEBFF;
+    border-radius: 25px;
+    padding: 8px 10px 8px 10px; 
+    margin-right: 9px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    font-size: 1.1em;
+}
+
+.fas.fa-heart
+{
+    border: solid 3px #DEEBFF;
+    border-radius: 25px;
+    padding: 8px; 
+    margin-right: 9px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    font-size: 1.1em;
+}
+
+.fas.fa-dog
+{
+    border: solid 3px #DEEBFF;
+    border-radius: 25px;
+    padding: 8px; 
+    margin-right: 9px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    font-size: 1.1em;
+}
+
+    /*Hébergements*/
+
+    a[title="Découvrez le logement"]
+    {
+        width: 370px;
+        font-size: 0.95em;
+        margin: 10px 0 10px 0;
+    }
 
     /*Populaires*/
     
     a[title="Découvrez le lieu"]
     {
-        width: 700px;
+        width: 370px;
         font-size: 0.95em;
-        margin: 10px 0 10px 15px;
+        margin: 10px 0 10px 10px;
     }
 
     /*Section 2*/
 
+    .section2
+    {
+        padding: 0;
+        margin: 0;
+    }
+
+    #act-ancre
+    {
+        padding-left: 20px;
+    }
+
+    .act1
+    {
+        height: 175px;
+        width: 350px;
+        margin: 10px;
+    }
+
+    .act2
+    {
+        height: 175px;
+        width: 350px;
+        margin: 20px 20px 40px 10px;
+    }
+
+    .act3
+    {
+        height: 175px;
+        width: 350px;
+        margin: 10px;
+    }
+
+    .act4
+    {
+        height: 175px;
+        width: 350px;
+        margin: -30px 20px 20px 10px;
+    }
+
+    .act5
+    {
+        height: 175px;
+        width: 350px;
+        margin: 20px 20px 40px 10px;
+    }
+
+    .act6
+    {
+        height: 175px;
+        width: 350px;
+        margin: 10px;
+    }
+
+    .pic3
+    {
+        height: 135px;
+        width: 350px;
+    }
+
+    .pic4
+    {
+        height: 135px;
+        width: 350px;
+    }
+
+    .pic5
+    {
+        height: 135px;
+        width: 350px;
+    }
+
+    .pic6
+    {
+        height: 135px;
+        width: 350px;
+    }
+
+    .pic7
+    {
+        height: 135px;
+        width: 350px;
+    }
+
+    .pic8
+    {
+        height: 135px;
+        width: 350px;
+    }
+
+    /* Footer */
+
+    footer
+    {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    .footer
+    {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    footer ul
+    {
+        margin: 0;
+        padding: 20px 0 20px 20px;
+        text-align: left;
+    }
     
 
 }
