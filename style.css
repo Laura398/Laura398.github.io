@@ -1021,9 +1021,6 @@ footer li
     nav ul
     {
         justify-content: center;
-        display: grid;
-        grid-template-columns: 1fr repeat(2, minmax(auto, 50%)) 1fr;
-        grid-template-rows: minmax(1em, auto) 1fr auto minmax(1em, auto);
     }
 
     a[title="Inscrivez-vous"]
