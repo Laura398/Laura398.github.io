@@ -1,4 +1,4 @@
-/*Overall*/
+/*Police*/
 
 @font-face
 {
@@ -6,6 +6,7 @@
     src: url('police/Raleway-Regular.ttf');
     font-weight: normal;
     font-style: normal;
+    font-size: 1em;
 }
 
 @font-face
@@ -14,14 +15,209 @@
     src: url('police/Raleway-Bold.ttf');
     font-weight: bold;
     font-style: normal;
+    font-size: 1em;
 }
 
 @font-face
 {
     font-family: 'Raleway-bolder';
     src: url('police/Raleway-ExtraBold.ttf');
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
+    font-size: 1em;
+}
+
+/*Stars*/
+
+    /*Locations*/
+
+    .fas.fa-star.blue
+    {
+        color:#0065FC;
+        font-size: 0.85em;
+    }
+
+    .fas.fa-star.gray
+    {
+        color: #dadada;
+        font-size: 0.85em;
+    }
+
+    /*Most popular*/
+
+    .fas.fa-star.blue2
+    {
+        color:#0065FC;
+        font-size: 0.85em;
+        margin-top: 45px;
+    }
+
+    .fas.fa-star.gray2
+    {
+        color: #dadada;
+        font-size: 0.85em;
+        margin-top: 45px;
+    }
+
+/*Links*/
+
+    /*Navigation*/
+
+    a[title="Cliquez ici pour découvrir les hébergements"], a[title="Cliquez ici pour découvrir les activités"]
+    {
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        color: black;
+        padding: 50px;
+        font-size: 0.9em;
+    }
+
+    a[title="Cliquez ici pour découvrir les hébergements"]:hover, a[title="Cliquez ici pour découvrir les activités"]:hover
+    {
+        border-top: solid 5px #0065FC;
+        color: #0065FC;
+        transition: .3s;
+    }
+
+    /*Sign up button*/
+
+    a[title="Inscrivez-vous"]
+    {
+        position: absolute;
+        margin: 35px 0 0 -100px;
+        width: 100%;
+        color: #0065FC;
+        font-family: 'Raleway-bolder', sans-serif;
+        text-decoration: none;
+        text-align: right;
+    }
+
+    a[title="Inscrivez-vous"]:hover
+    {
+        font-size: 1em;
+        transition: .3s;
+    }
+
+    /*Filters*/
+
+    ul li b
+    {
+        font-family: 'Raleway-bold', sans-serif;
+    }
+
+    a[title="Filtrez votre recherche"]
+    {
+        color: black;
+        font-family: 'Raleway-bold', sans-serif;
+        text-decoration: none;
+        border-top: solid 3px #dadada;
+        border-right: solid 3px #dadada;
+        border-bottom: solid 3px #dadada;
+        border-radius: 25px;
+        padding: 12px 18px 12px 0;
+    }
+
+    a[title="Filtrez votre recherche"]:hover
+    {
+        background-color: #DEEBFF;
+        border: #DEEBFF;
+        transition: .3s;
+    }
+
+    /*Vignettes in sections*/
+
+        /*Locations*/
+
+        a[title="Découvrez le logement"]
+        {
+            color: black;
+            text-decoration: none;
+            width: 230px;
+            height: 200px;
+            margin: 15px;
+            background-color: white;
+            border: solid white 5px;
+            border-radius: 20px;
+            box-shadow: 6px 6px 12px #dadada, -6px 6px 12px #dadada;
+        }
+
+        a[title="Découvrez le logement"]:hover
+        {
+            background-color: #DEEBFF;
+            border-color: #DEEBFF;
+            transition: .3s;
+        }
+
+        /*'Afficher plus' button*/
+
+        a[title="Partez à la découverte de nos hébergements"]
+        {
+            color: black;
+            text-decoration: none;
+            font-family: 'Raleway-bolder', sans-serif;
+            margin-left: 20px;
+            font-size: 1em;
+        }
+
+        a[title="Partez à la découverte de nos hébergements"]:hover
+        {
+            font-size: 1.1em;
+        }
+
+        /*Most popular*/
+
+        a[title="Découvrez le lieu"]
+        {
+            color: black;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            min-width: 340px;
+            min-height: 145px;
+            margin: auto;
+            margin-top: 25px;
+            background-color: white;
+            border: solid white 5px;
+            border-radius: 20px;
+            box-shadow: 6px 6px 12px #dadada, -6px 6px 12px #dadada;
+        }
+
+        a[title="Découvrez le lieu"]:hover
+        {
+            background-color: #DEEBFF;
+            border-color: #DEEBFF;
+            transition: .3s;
+        }
+
+        /*Activities*/
+
+        a[title="Découvrez l'activité"]
+        {
+            color: black;
+            text-decoration: none;
+        }
+
+    /*Footer*/
+
+    a[title="En savoir plus"]
+    {
+        color: black;
+        text-decoration: none;
+    }
+
+    a[title="En savoir plus"]:hover
+    {
+        font-family: 'Raleway-bold', sans-serif;
+        transition: .3s;
+    }
+
+/*General formating*/
+
+.invisible
+{
+    display: none;
 }
 
 body
@@ -29,43 +225,9 @@ body
     background-color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
-    justify-content: center;
+    margin: auto;
+    max-width: 1950px;
 }
-
-/* Formatage des étoiles*/
-
-.fas.fa-star.blue
-{
-    color:#0065FC;
-    font-size: 0.85em;
-}
-
-.fas.fa-star.gray
-{
-    color: #dadada;
-    font-size: 0.85em;
-}
-
-.fas.fa-star.blue2
-{
-    color:#0065FC;
-    font-size: 0.85em;
-    margin-top: 45px;
-}
-
-.fas.fa-star.gray2
-{
-    color: #dadada;
-    font-size: 0.85em;
-    margin-top: 45px;
-}
-
-.invisible
-{
-    display: none;
-}
-
-/*Formatage textes*/
 
 h1
 {
@@ -78,19 +240,12 @@ h2
 {
     font-family: 'Raleway-bolder', sans-serif;
     margin: 20px 0 10px 0;
-    padding-left: 20px;
 }
 
 h3
 {
     font-family: 'Raleway-bolder', sans-serif;
     margin-bottom: 5px;
-}
-
-strong
-{
-    font-family: 'Raleway-bolder', sans-serif;
-    font-size: 1.2em;
 }
 
 b
@@ -100,152 +255,26 @@ b
 
 p
 {
-    padding: 0;
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 20px;
 }
 
-.header-main p
+ul
 {
-    font-size: 1em;
-}
-
-/*Links*/
-
-a[title="Cliquez ici pour découvrir les hébergements"], a[title="Cliquez ici pour découvrir les activités"]
-{
-    font-style: normal;
-    text-decoration: none;
-    font-family: 'Raleway bold';
-    color: black;
-    padding: 50px;
-    margin: 0;
-    text-align: center;
-    font-size: 1em;
-}
-
-a[title="Cliquez ici pour découvrir les hébergements"]:hover, a[title="Cliquez ici pour découvrir les activités"]:hover
-{
-    border-top: solid 5px #0065FC;
-    color: #0065FC;
-    text-align: center;
-    transition: .3s;
-}
-
-a[title="Inscrivez-vous"]
-{
-    position: absolute;
-    margin: 30px 0 0 -100px;
-    padding: 0;
-    width: 100%;
-    color: #0065FC;
-    font-family: 'Raleway-bolder', sans-serif;
-    text-decoration: none;
-    text-align: right;
-    font-size: 1em;
-}
-
-a[title="Inscrivez-vous"]:hover
-{
-    font-size: 1em;
-    transition: .3s;
-}
-
-a[title="Filtrez votre recherche"]
-{
-    color: black;
-    text-decoration: none;
-    border-top: solid 3px #dadada;
-    border-right: solid 3px #dadada;
-    border-bottom: solid 3px #dadada;
-    border-radius: 25px;
-    padding: 12px 18px 12px 0;
-}
-
-a[title="Filtrez votre recherche"]:hover
-{
-    background-color: #DEEBFF;
-    border: #DEEBFF;
-    transition: .3s;
-}
-
-a[title="Découvrez le logement"]
-{
-    color: black;
-    text-decoration: none;
-    width: 230px;
-    min-height: 200px;
-    margin: 17px;
-    background-color: white;
-    border: solid white 5px;
-    border-radius: 20px;
-    box-shadow: 6px 6px 12px #dadada, -6px 6px 12px #dadada;
-}
-
-a[title="Découvrez le logement"]:hover
-{
-    background-color: #DEEBFF;
-    border-color: #DEEBFF;
-    transition: .3s;
-}
-
-a[title="Découvrez le lieu"]
-{
-    color: black;
-    text-decoration: none;
+    list-style-type: none;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width: 350px;
-    height: 145px;
-    margin: 25px;
-    background-color: white;
-    border: solid white 5px;
-    border-radius: 20px;
-    text-align: left;
-    box-shadow: 6px 6px 12px #dadada, -6px 6px 12px #dadada;
+    padding-left: 0;
+    margin: 20px 0 20px 0;
 }
 
-a[title="Découvrez le lieu"]:hover
+li
 {
-    background-color: #DEEBFF;
-    border-color: #DEEBFF;
-    transition: .3s;
-}
-
-a[title="Découvrez l'activité"]
-{
-    color: black;
-    text-decoration: none;
-}
-
-a[title="En savoir plus"]
-{
-    color: black;
-    text-decoration: none;
-    padding: 10px 0 10px 0;
-}
-
-a[title="En savoir plus"]:hover
-{
-    font-family: 'Raleway-bold', sans-serif;
-    transition: .3s;
-}
-
-a[title="Partez à la découverte de nos hébergements"]
-{
-    color: black;
-    text-decoration: none;
-    font-family: 'Raleway-bolder', sans-serif;
-    margin-left: 20px;
-    font-size: 1.1em;
-}
-
-a[title="Partez à la découverte de nos hébergements"]:hover
-{
+    padding: 0 25px 0 0;
     font-size: 1.2em;
 }
+
+/*Body*/
 
 /*header*/
 
@@ -254,18 +283,11 @@ header
     margin: 22px 0 55px 55px;
 }
 
-.header
+.header /*Logo + nav + subscribe button*/
 {
-    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     position: relative;
-}
-
-h1 + p
-{
-    margin-top: -10px;
 }
 
 .logo
@@ -279,7 +301,7 @@ nav
     display: flex;
     justify-content: flex-end;
     margin-top: 10px;
-    min-width: 100%;
+    width: 100%;
 }
 
 nav ul
@@ -287,10 +309,6 @@ nav ul
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 50%)) 1fr;
-    grid-template-rows: minmax(1em, auto) 1fr auto minmax(1em, auto);
-    padding-left: 0;
-    align-items: right;
-    margin: 20px 0 20px 0;
 }
 
 nav ul li
@@ -299,114 +317,137 @@ nav ul li
     padding: 0;
 }
 
-ul
+.header-main /*From h1 to information*/
 {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    padding-left: 0;
-    align-items: center;
-    margin: 20px 0 20px 0;
-}
-
-li
-{
-    padding-right: 25px;
-    padding-left: 0;
-    font-size: 1.2em;
-}
-
-.header-main
-{
-    width: 100%;
     line-height: 80px;
 }
 
-/*Form*/
-
-.fas.fa-map-marker-alt
+h1 + p /*'En plein centre ville ou en pleine nature'*/
 {
-    border: solid 2px #F2F2F2;
-    border-radius: 20px 0 0 20px;
-    background-color: #F2F2F2;
-    padding: 16px 20px 17px 20px;
-    font-size: 1.2em;
+    margin-top: -20px;
 }
 
- .custom-home-search input
- {
-    padding: 15px;
-    border-top: 2px solid #f2f2f2;
-    border-bottom: 2px solid #f2f2f2;
-    font-size: 1em;
-    font-family: 'Raleway-bold', sans-serif;
-    border-right: none;
-    border-left: none;
-    margin-left: -5px;
-    margin-right: -5px;
- }
+    /*Form*/
 
+    .fas.fa-map-marker-alt /*Localisation incon*/
+    {
+        position: relative;
+        border: solid 2px #F2F2F2;
+        border-radius: 20px 0 0 20px;
+        background-color: #F2F2F2;
+        padding: 16px 20px 17px 20px;
+        font-size: 1.2em;
+        z-index: 2;
+    }
 
+    .custom-home-search input /*Search field*/
+    {
+        position : relative;
+        padding: 18px 35px 15px 35px;
+        border-top: 2px solid #f2f2f2;
+        border-bottom: 2px solid #f2f2f2;
+        font-size: 1em;
+        font-family: 'Raleway-bold', sans-serif;
+        border-right: none;
+        border-left: none;
+        margin-left: -20px;
+        margin-right: -20px;
+        z-index: 1;
+    }
 
-/*Filter Icons*/
+    /*Search button*/
 
-.fas.fa-money-bill-wave
-{
-    border: solid 3px #DEEBFF;
-    border-radius: 25px;
-    padding: 13px; 
-    margin-right: 9px;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    font-size: 1.1em;
-}
+    .custom-home-search input[id="rechercher"]
+    {
+       position: relative;
+       background: #0065FC;
+       border: 2px solid #0065FC;
+       color: white;
+       font-family: 'Raleway-bold', sans-serif;
+       font-size: 1em;
+       padding: 18px 20px 15px 20px;
+       border-radius: 0 10px 10px 0;
+       z-index: 2;
+    }
 
-.fas.fa-child
-{
-    border: solid 3px #DEEBFF;
-    border-radius: 25px;
-    padding: 13px 15px 13px 15px; 
-    margin-right: 9px;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    font-size: 1.1em;
-}
+    .custom-home-search input[id="rechercher"]:hover
+    {
+       background: #DEEBFF;
+       border: solid 2px #DEEBFF;
+       color: black;
+       transition: .3s;
+    }
 
-.fas.fa-heart
-{
-    border: solid 3px #DEEBFF;
-    border-radius: 25px;
-    padding: 13px; 
-    margin-right: 9px;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    font-size: 1.1em;
-}
+    .custom-home-search button[name="loupe"] /*Will be displayed only in Media Querries*/
+    {
+        display: none;
+    }
 
-.fas.fa-dog
-{
-    border: solid 3px #DEEBFF;
-    border-radius: 25px;
-    padding: 13px; 
-    margin-right: 9px;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    font-size: 1.1em;
-}
+    /*Filter Icons*/
 
-.fas.fa-info
-{
-    color: #0065FC;
-    margin-right: 10px;
-    padding: 2px 6px 2px 6px;
-    border: solid 1px #0065FC;
-    border-radius: 25px;
-}
+    .fas.fa-money-bill-wave
+    {
+        border: solid 3px #DEEBFF;
+        border-radius: 25px;
+        padding: 13px;
+        margin-right: 9px;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        font-size: 1.1em;
+    }
+
+    .fas.fa-child
+    {
+        border: solid 3px #DEEBFF;
+        border-radius: 25px;
+        padding: 13px 15px 13px 15px; 
+        margin-right: 9px;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        font-size: 1.1em;
+    }
+
+    .fas.fa-heart
+    {
+        border: solid 3px #DEEBFF;
+        border-radius: 25px;
+        padding: 13px; 
+        margin-right: 9px;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        font-size: 1.1em;
+    }
+
+    .fas.fa-dog
+    {
+        border: solid 3px #DEEBFF;
+        border-radius: 25px;
+        padding: 13px; 
+        margin-right: 9px;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        font-size: 1.1em;
+    }
+
+    .fas.fa-info
+    {
+        color: #0065FC;
+        margin-right: 10px;
+        padding: 4px 8px 4px 8px;
+        border: solid 1px #dadada;
+        border-radius: 25px;
+        font-size: 0.8em;
+        float: left;
+    }
+
+    .fas.fa-chart-line
+    {
+        font-size: 1.5em;
+    }
 
 /*Main*/
 
-main
+main /*Sections 1 and 2*/
 {
     margin: 55px;
 }
@@ -428,302 +469,321 @@ figcaption
 
 /*Section 1*/
 
-.section1
+.section1 /*First <section> tag*/
 {
     display: flex;
     flex-wrap: wrap-reverse;
-    margin-top: 0;
-}
-
-/*Hébergements*/
-
-article
-{
-    width: 60%;
-    padding: 30px 30px 30px 30px;
-    background-color: #F2F2F2;
-    margin-right: 40px;
-    border-radius: 20px;
-}
-
-.hab-conteneur
-{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 40px;
-}
-
-.pic
-{
-    width: 100%;
-	height: 110px;
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-    margin-top:-13px;
-}
-
-/*Les plus populaires*/
-
-aside
-{
-    width: 28%;
-    padding: 40px 40px 10px 10px;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-}
-
-.aside-title-container
-{
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0 10px 0 20px;
 }
 
-.pop-container
+article h2, aside h2 /*More margin for titles in section 1*/
 {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    margin-left: 20px;
 }
 
-.pic2
-{
-    width: 130px;
-	height: 145px;
-    border-radius: 20px 0 0 20px ;
-    overflow: hidden;
-    object-fit: cover;
-    margin-top: -13px;
-    margin-right: 20px;
-    float: left;
-}
+    /*Article - 'Hébergements'*/
 
-figcaption[class="text"]
-{
-    margin-top: -15px;
-}
+    article
+    {
+        max-width: 60%;
+        padding: 30px 30px 30px 30px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+    }
+
+    .hab-conteneur /*Container for articles's vignettes*/
+    {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .pic
+    {
+        width: 100%;
+        height: 110px;
+        overflow: hidden;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+        margin-top:-13px;
+    }
+
+    .strong1 /*Location's name*/
+    {
+        font-family: 'Raleway-bolder', sans-serif;
+        font-size: 1.1em;
+    }
+
+    /*Aside - Les plus populaires*/
+
+    aside
+    {
+        width: 30%;
+        min-width: 400px;
+        padding-top: 30px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+    }
+
+    .aside-title-container /*'Les plus populaires' + icon*/
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 30px 0 20px;
+    }
+
+    .pop-container /*flex container for the 3 vignettes*/
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pic2
+    {
+        width: 130px;
+        height: 145px;
+        border-radius: 20px 0 0 20px ;
+        overflow: hidden;
+        object-fit: cover;
+        margin-top: -12px;
+        margin-right: 20px;
+        float: left;
+    }
+
+    figcaption[class="text"]
+    {
+        margin-top: -15px;
+    }
+
+    .strong2 /*Location's name*/
+    {
+        font-family: 'Raleway-bolder', sans-serif;
+        font-size: 1.2em;
+    }
 
 /*Section 2*/
 
-#act-ancre
+#act-ancre /*Section 2 h2*/
 {
     margin: 30px 0 20px 0;
 }
 
-.section2
+.section2 /*Second <section> tag minus h2*/
 {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-left: 30px;
-}
-
-.col12
-{
-    width: 35%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: stretch;
-    margin-left: -300px;
 }
 
-.col34
-{
-    width: 35%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
-    margin-left: 250px;
-}
+    /*Columns*/
 
-.column2
-{
-    width: 21%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
-}
+    .col12 /*Flex container for columns 1 and 2*/
+    {
+        width: 47.5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+    }
 
-.column4
-{
-    width: 21%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
-    margin-right: 20px;
-}
+    .col34 /*Flex container for columns 3 and 4*/
+    {
+        width: 47.5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+    }
 
-.act1
-{
-    width: 305px;
-    border-radius: 20px;
-    box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-    margin-left: 30px;
-}
+    .column2 /*Flex container for columns 2*/
+    {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 
-.act1:hover
-{
-    transform: scale(1.05);
-    transition: .3s; /* Animation */
-}
+    .column4 /*Flex container for columns 4*/
+    {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 
-.pic3
-{
-    width: 305px;
-    height: 385px;
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-    margin-top:-13px;
-}
+    /*Activities vignettes*/
 
-.act2
-{
-    width: 305px;
-    border-radius: 20px;
-    margin-bottom: 25px;
-    box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-}
+    .p-act /*Figcation for activities*/
+    {
+        padding-left: 20px;
+        font-family: 'Raleway-bolder', sans-serif;
+        font-size: 1em;
+    }
 
-.act2:hover
-{
-    transform: scale(1.05);
-    transition: .2s; /* Animation */
-}
+        /*'Vieux Port'*/
 
-.pic4
-{
-    width: 305px;
-    height: 180px;
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-    margin-top:-13px;
-}
+        .column1
+        {
+            width: 300px;
+            border-radius: 20px;
+            box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
+        }
 
-.act3
-{
-    width: 305px;
-    border-radius: 20px;
-    margin-top: 25px;
-    box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-}
+        .column1:hover
+        {
+            transform: scale(1.05);
+            transition: .3s;
+        }
 
-.act3:hover
-{
-    transform: scale(1.05);
-    transition: .2s; /* Animation */
-}
+        .pic3
+        {
+            width: 300px;
+            height: 385px;
+            overflow: hidden;
+            object-fit: cover;
+            border-radius: 20px 20px 0 0;
+            margin-top:-13px;
+        }
 
-.pic5
-{
-    width: 305px;
-    height: 110px;
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-    margin-top:-13px;
-}
+        /*'Fort de Pomègues'*/
 
-.act4
-{
-    width: 305px;
-    justify-self: center;
-    border-radius: 20px;
-    box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-    
+        .act2
+        {
+            width: 300px;
+            border-radius: 20px;
+            margin-bottom: 25px;
+            box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
+        }
 
-}
+        .act2:hover
+        {
+            transform: scale(1.05);
+            transition: .2s;
+        }
 
-.act4:hover
-{
-    transform: scale(1.05);
-    transition: .2s; /* Animation */
-}
+        .pic4
+        {
+            width: 300px;
+            height: 180px;
+            overflow: hidden;
+            object-fit: cover;
+            border-radius: 20px 20px 0 0;
+            margin-top:-13px;
+        }
 
-.pic6
-{
-    width: 305px;
-    height: 385px;
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-    margin-top:-13px;
-}
+        /*'Îles du Frioul'*/
 
-.act5
-{
-    width: 305px;
-    border-radius: 20px;
-    margin-bottom: 25px;
-    box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-}
+        .act3
+        {
+            width: 300px;
+            border-radius: 20px;
+            margin-top: 25px;
+            box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
+        }
 
-.act5:hover
-{
-    transform: scale(1.05);
-    transition: .2s; /* Animation */
-}
+        .act3:hover
+        {
+            transform: scale(1.05);
+            transition: .2s;
+        }
 
-.pic7
-{
-    width: 305px;
-    height: 180px;
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-    margin-top:-13px;
-}
+        .pic5
+        {
+            width: 300px;
+            height: 110px;
+            overflow: hidden;
+            object-fit: cover;
+            border-radius: 20px 20px 0 0;
+            margin-top:-13px;
+        }
 
-.act6
-{
-    width: 305px;
-    border-radius: 20px;
-    margin-top: 25px;
-    box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-}
+        /*'Parc National des Calanques'*/
 
-.act6:hover
-{
-    transform: scale(1.05);
-    transition: .2s; /* Animation */
-}
+        .column3
+        {
+            width: 300px;
+            border-radius: 20px;
+            box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
+        }
 
-.pic8
-{
-    width: 305px;
-    height: 110px;
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-    margin-top: -15px;
-}
+        .column3:hover
+        {
+            transform: scale(1.05);
+            transition: .2s;
+        }
 
-.p-act
-{
-    padding-left: 20px;
-    font-family: 'Raleway-bolder', sans-serif;
-    font-size: 1em;
-}
+        .pic6
+        {
+            width: 300px;
+            height: 385px;
+            overflow: hidden;
+            object-fit: cover;
+            border-radius: 20px 20px 0 0;
+            margin-top:-13px;
+        }
+
+        /*'Notre-Dame-de-la-Garde'*/
+
+        .act5
+        {
+            width: 300px;
+            border-radius: 20px;
+            margin-bottom: 25px;
+            box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
+        }
+
+        .act5:hover
+        {
+            transform: scale(1.05);
+            transition: .2s;
+        }
+
+        .pic7
+        {
+            width: 300px;
+            height: 180px;
+            overflow: hidden;
+            object-fit: cover;
+            border-radius: 20px 20px 0 0;
+            margin-top:-13px;
+        }
+
+        /*'Parc Longchamp'*/
+
+        .act6
+        {
+            width: 300px;
+            border-radius: 20px;
+            margin-top: 25px;
+            box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
+        }
+
+        .act6:hover
+        {
+            transform: scale(1.05);
+            transition: .2s;
+        }
+
+        .pic8
+        {
+            width: 300px;
+            height: 110px;
+            overflow: hidden;
+            object-fit: cover;
+            border-radius: 20px 20px 0 0;
+            margin-top: -15px;
+        }
 
 /*Footer*/
 
-.footer
+footer
 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content:left;
     background-color: #F2F2F2;
 }
 
@@ -734,7 +794,7 @@ footer ul
     display:list-item;
     margin-left: 50px;
     font-size: 0.85em;
-    padding: 20px;
+    padding-bottom: 20px;
 }
 
 footer li
@@ -744,133 +804,97 @@ footer li
 
 /*Media Queries*/
 
-.custom-home-search input[id="rechercher"]
-{
-   background: #0065FC;
-   border: 2px solid #0065FC;
-   color: white;
-   font-family: 'Raleway-bold', sans-serif;
-   font-size: 1em;
-   padding: 14px 20px 15px 20px;
-   border-radius: 0 10px 10px 0;
-}
-
-.custom-home-search input[id="rechercher"]:hover
-{
-   background: #DEEBFF;
-   border: solid 2px #DEEBFF;
-   color: black;
-   transition: .3s;
-}
-
-.custom-home-search input[id="rechercher"]:focus
-{
-   background: #DEEBFF;
-   border: #DEEBFF;
-   color: black;
-   transition: .3s;
-}
-
-.custom-home-search button[name="loupe"]
-{
-    display: none;
-}
-
 @media all and (max-width: 1400px)
 {
     main
     {
-        margin: 0;
+        margin: 20px;
     }
 
-    figcaption
-    {
-        font-size: 0.8em;
-        line-height: normal;
-    }
-    
-    article
-    {
-        width: 90%;
-        margin-bottom: 40px;
-        margin-left: -10px;
-    }
-
-    a[title="Découvrez le logement"]
-    {
-        width: 340px;
-    }
-
-    aside
-    {
-        width: 90%;
-        margin-bottom: 40px;
-
-    }
+    /*Section 2*/
 
     .section2
     {
         margin-bottom: 40px;
     }
 
-    figcaption[class="text"]
-    {
-        padding-top: 15px;
-        font-size: 0.9em;
-    }
-
-    figcaption[class="pic-text"]
-    {
-        padding-top: 15px;
-        font-size: 0.9em;
-    }
-
-    figcaption[class="p-act"]
-    {
-        padding-top: 10px;
-    }
-}
-
-@media all and (max-width: 1250px)
-{
-    a[title="Inscrivez-vous"]
-    {
-        width: 100%;
-    }
-
-    #act-ancre
-    {
-        padding-left: 100px;
-    }
-
     .col12
     {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-    }
-
-    .act1
-    {
-        margin-right: 80px;
-        margin-left: -200px;
+        width: 49.5%;
     }
 
     .col34
     {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding: 0;
-        margin: 40px 0 0 0;
+        width: 49.5%;
     }
 
-    .act4
+    
+}
+
+@media all and (max-width: 1250px)
+
+{
+
+    /*Article*/
+
+    article
     {
-        margin-right: 80px;
-        margin-left: -180px;
+        min-width: 95%;
+        margin: auto;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+    }
+
+    a[title="Découvrez le logement"]
+    {
+        width: 340px;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    /*Aside*/
+
+    aside
+    {
+        min-width: 100%;
+        margin: auto;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+    }
+
+    a[title="Découvrez le lieu"]
+    {
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    /*Section 2*/
+
+    #act-ancre
+    {
+        padding-left: 40px;
+    }
+
+    .col12
+    {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .col34
+    {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .column1
+    {
+        margin-bottom: 40px;
+    }
+
+    .column3
+    {
+        margin-bottom: 40px;
     }
 }
 
@@ -879,168 +903,118 @@ footer li
 
     /*Section 2*/
 
-    .section2
-    {
-        width: 100%;
-        display: inline-block;
-        justify-content: center;
-    }
-
-    .col12
-    {
-        width: 100%;
-        display: inline-block;
-        justify-content: center;
-    }
-
-    .col34
-    {
-        width: 100%;
-        display: inline-block;
-        justify-content: center;
-    }
-
-    .column2
-    {
-        width: 100%;
-        display: inline-block;
-        justify-content: center;
-    }
-
-    .column4
-    {
-        width: 100%;
-        display: inline-block;
-        justify-content: center;
-    }
-
     #act-ancre
     {
-        padding-left: 50px;
-        margin-top: -20px;
-    }
-
-    .act1
-    {
-        height: 175px;
-        width: 350px;
-        margin: 20px;
-    }
-
-    .act2
-    {
-        height: 175px;
-        width: 350px;
-        margin: 20px 20px 40px 20px;
-    }
-
-    .act3
-    {
-        height: 175px;
-        width: 350px;
-        margin: 20px;
-    }
-
-    .act4
-    {
-        height: 175px;
-        width: 350px;
-        margin: -30px 20px 20px 20px;
-    }
-
-    .act5
-    {
-        height: 175px;
-        width: 350px;
-        margin: 20px 20px 40px 20px;
-    }
-
-    .act6
-    {
-        height: 175px;
-        width: 350px;
-        margin: 20px;
-    }
-
-    .pic3
-    {
-        height: 135px;
-        width: 350px;
-    }
-
-    .pic4
-    {
-        height: 135px;
-        width: 350px;
-    }
-
-    .pic5
-    {
-        height: 135px;
-        width: 350px;
-    }
-
-    .pic6
-    {
-        height: 135px;
-        width: 350px;
-    }
-
-    .pic7
-    {
-        height: 135px;
-        width: 350px;
-    }
-
-    .pic8
-    {
-        height: 135px;
-        width: 350px;
-    }
-
-    #assistance
-    {
+        padding-left: 40px;
         margin-top: 0;
     }
+
+    .col12, .col34
+    {
+        width: 100%;
+        margin: auto;
+    }
+
+    .column1, .column3
+    {
+        width: 350px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .column2, .column4
+    {
+        width: 350px;
+        margin: auto;
+    }
+
+    .act1, .act4
+    {
+        height: 175px;
+        width: 350px;
+        margin: auto;
+    }
+
+    .act2, .act3, .act5, .act6
+    {
+        height: 175px;
+        width: 350px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .pic3, .pic4, .pic5, .pic6, .pic7, .pic8
+    {
+        height: 135px;
+        width: 350px;
+    }
+
 }
 
-@media all and (max-width: 790px)
+@media all and (max-width: 750px)
 {
 
-    h1
+    /*General formating*/
+
+    body
     {
-        margin-top: 50px;
+        width: 100%;
+        margin: 0;
     }
+
+    main
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+    /*Header*/
+
+    header
+    {
+        margin: 10px;
+    }
+
+    .header-main
+    {
+        line-height: 60px;
+    }
+
+    .logo
+    {
+        margin-left: 10px;
+    }
+
+    /*Navigation*/
 
     nav
     {
-        margin: 100px 0 0 60px;
+        margin-top: 80px;
         padding: 0;
-    }
-
-    nav ul
-    {
-        justify-content: center;
     }
 
     a[title="Inscrivez-vous"]
     {
-        padding: 0;
-        margin: 30px 0 0 -30px;
+        position: absolute;
+        margin: 40px 0 0 -20px;
     }
 
     a[title="Cliquez ici pour découvrir les hébergements"]
     {
         grid-column: 1;
+        width: 50%;
         border-bottom: solid 3px #dadada;
         padding-bottom: 20px;
+        margin-left: 30px;
     }
 
     a[title="Cliquez ici pour découvrir les activités"]
     {
         grid-column: 2;
+        width: 50%;
         border-bottom: solid 3px #dadada;
         padding-bottom: 20px;
+        margin-left: 40px;
     }
 
     a[title="Cliquez ici pour découvrir les hébergements"]:hover, a[title="Cliquez ici pour découvrir les activités"]:hover
@@ -1049,35 +1023,39 @@ footer li
         border-bottom: solid 3px #0065FC;
         color: #0065FC;
         text-align: center;
+        transition: .3s;
     }
-}
 
-@media all and (max-width: 650px)
-{
-    body
-    {
-        width: 100%;
-    }
+    /*Title*/
 
     h1
     {
-        font-size: 1.9em;
-        line-height: 40px;
-        margin-bottom: 20px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-family: 'Raleway-bold', sans-serif;
+        font-size: 1.45em;
+        line-height: 30px;
+    }
+
+    h1 + p
+    {
+        font-size: 1.05em;
     }
 
     /*Barre de recherche*/
 
     .custom-home-search button[name="loupe"]
     {
+        position: relative;
         display: inline;
         background: #0065FC;
         border: 2px solid #0065FC;
         color: white;
         font-family: 'Raleway-bold', sans-serif;
         font-size: 1em;
-        padding: 14px 20px 15px 20px;
-        border-radius: 0 10px 10px 0;
+        padding: 17px 17px 14px 17px;
+        border-radius: 15px;
+        z-index: 2;
     }
 
     .custom-home-search button[name="loupe"]:hover
@@ -1101,302 +1079,130 @@ footer li
         display: none;
     }
 
-    /*Header*/ 
+    /*Filters*/
 
-    body
+    ul li b
     {
+        font-size: 0.8em;
+    }
+
+    .ft
+    {
+        font-size: 1.1em;
+        padding-right: 150px;
+    }
+
+    a[title="Filtrez votre recherche"]
+    {
+        padding: 10px 15px 10px 0;
         margin: 0;
     }
 
-    header
+        /*Filter Icons*/
+
+        .fas.fa-money-bill-wave
+        {
+            border: solid 3px #DEEBFF;
+            border-radius: 25px;
+            padding: 12px;
+            color: #0065FC;
+            background-color: #DEEBFF;
+            font-size: 0.9em;
+        }
+
+        .fas.fa-child
+        {
+            border: solid 3px #DEEBFF;
+            border-radius: 25px;
+            padding: 12px 15px 12px 15px;
+            color: #0065FC;
+            background-color: #DEEBFF;
+            font-size: 0.9em;
+        }
+
+        .fas.fa-heart
+        {
+            border: solid 3px #DEEBFF;
+            border-radius: 25px;
+            padding: 12px;
+            color: #0065FC;
+            background-color: #DEEBFF;
+            font-size: 0.9em;
+        }
+
+        .fas.fa-dog
+        {
+            border: solid 3px #DEEBFF;
+            border-radius: 25px;
+            padding: 12px;
+            color: #0065FC;
+            background-color: #DEEBFF;
+            font-size: 0.9em;
+        }
+
+    /*Main*/
+
+    article h2, aside h2 /*More margin for titles in section 1*/
     {
+        margin-left: 0;
+    }
+
+        /*Section 1*/
+
+        #hab-ancre
+        {
+            margin-top: 50px;
+            margin-bottom: 30px;
+            margin-left: 10px;
+            padding: 0;
+        }
+
+        article /*Hébergements*/
+        {
+            width: 100%;
+            background-color: white;
+            margin: auto;
+            padding: 0;
+        }
+
+        a[title="Découvrez le logement"]
+        {
+            width: 370px;
+            font-size: 0.95em;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        aside /*Most popular*/
+        {
+            width: 100%;
+            border-radius: 0;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+    /*Section 2*/
+
+    #act-ancre,
+    {
+        margin-top: 50px;
+        margin-bottom: 30px;
         margin-left: 20px;
-    }
-
-    nav
-    {
-        display: flex;
-        flex-wrap: wrap-reverse;
-        width: 100%;
-    }
-
-    a[title="Inscrivez-vous"]
-    {
-        width: 100%;
-        
-    }
-
-    a[title="Cliquez ici pour découvrir les hébergements"], a[title="Cliquez ici pour découvrir les activités"]
-    {
-        width: 50%;
-        margin-left: -40px;
-        padding-left: 60px;
-    }
-
-    a[title="Cliquez ici pour découvrir les hébergements"]:hover, a[title="Cliquez ici pour découvrir les activités"]:hover
-    {
-        border-top: none;
-        border-bottom: solid 3px #0065FC;
-        margin-bottom: -50px;
-        color: #0065FC;
-        text-align: center;
-        transition: .3s;
-    }
-
-    /*Section 1*/
-
-    article
-    {
-        background-color: white;
-    }
-
-    aside
-    {
-        border-radius: 0;
-    }
-
-    span[class="ft"]
-    {
-        padding-right: 900px;
+        padding: 0;
     }
 
     /*Footer*/
-
-    .footer
-    {
-        display: inline-block;
-    }
 
     footer ul
     {
         width: 100%;
         height: 80px;
-    }
-
-    footer li
-    {
-        padding: 0;
-        margin: 0;
-    }    
-
-}
-
-@media all and (max-width: 380px)
-{
-    
-
-    h1
-    {
-        font-size: 1.4em;
-        line-height: 30px;
-    }
-
-    h2
-    {
-        padding: 0;
-    }
-
-    /*Filtres*/
-
-    ul li b
-    {
-        font-size: 0.85em;
-    }
-
-    .header-main
-{
-    width: 100%;
-    line-height: 60px;
-}
-
-    .ft
-    {
-        padding: 0 10px 0 0;
-    }
-
-    a[title="Filtrez votre recherche"]
-    {
-        padding: 7px 13px 7px 0;
-        margin: 0;
-    }
-
-    /*Filter Icons*/
-
-.fas.fa-money-bill-wave
-{
-    border: solid 3px #DEEBFF;
-    border-radius: 25px;
-    padding: 8px; 
-    margin-right: 9px;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    font-size: 1.1em;
-}
-
-.fas.fa-child
-{
-    border: solid 3px #DEEBFF;
-    border-radius: 25px;
-    padding: 8px 10px 8px 10px; 
-    margin-right: 9px;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    font-size: 1.1em;
-}
-
-.fas.fa-heart
-{
-    border: solid 3px #DEEBFF;
-    border-radius: 25px;
-    padding: 8px; 
-    margin-right: 9px;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    font-size: 1.1em;
-}
-
-.fas.fa-dog
-{
-    border: solid 3px #DEEBFF;
-    border-radius: 25px;
-    padding: 8px; 
-    margin-right: 9px;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    font-size: 1.1em;
-}
-
-    /*Hébergements*/
-
-    a[title="Découvrez le logement"]
-    {
-        width: 370px;
-        font-size: 0.95em;
-        margin: 10px 0 10px 0;
-    }
-
-    /*Populaires*/
-    
-    a[title="Découvrez le lieu"]
-    {
-        width: 370px;
-        font-size: 0.95em;
-        margin: 10px 0 10px 10px;
-    }
-
-    /*Section 2*/
-
-    .section2
-    {
-        padding: 0;
-        margin: 0;
-    }
-
-    #act-ancre
-    {
-        padding-left: 20px;
-    }
-
-    .act1
-    {
-        height: 175px;
-        width: 350px;
-        margin: 10px;
-    }
-
-    .act2
-    {
-        height: 175px;
-        width: 350px;
-        margin: 20px 20px 40px 10px;
-    }
-
-    .act3
-    {
-        height: 175px;
-        width: 350px;
-        margin: 10px;
-    }
-
-    .act4
-    {
-        height: 175px;
-        width: 350px;
-        margin: -30px 20px 20px 10px;
-    }
-
-    .act5
-    {
-        height: 175px;
-        width: 350px;
-        margin: 20px 20px 40px 10px;
-    }
-
-    .act6
-    {
-        height: 175px;
-        width: 350px;
-        margin: 10px;
-    }
-
-    .pic3
-    {
-        height: 135px;
-        width: 350px;
-    }
-
-    .pic4
-    {
-        height: 135px;
-        width: 350px;
-    }
-
-    .pic5
-    {
-        height: 135px;
-        width: 350px;
-    }
-
-    .pic6
-    {
-        height: 135px;
-        width: 350px;
-    }
-
-    .pic7
-    {
-        height: 135px;
-        width: 350px;
-    }
-
-    .pic8
-    {
-        height: 135px;
-        width: 350px;
-    }
-
-    /* Footer */
-
-    footer
-    {
-        margin: 0;
-        padding: 0;
         text-align: left;
     }
 
-    .footer
+    #assistance
     {
         margin: 0;
-        padding: 0;
-        text-align: left;
     }
-
-    footer ul
-    {
-        margin: 0;
-        padding: 20px 0 20px 20px;
-        text-align: left;
-    }
-    
 
 }
