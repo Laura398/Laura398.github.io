@@ -3,7 +3,7 @@
 @font-face
 {
     font-family: 'Raleway';
-    src: url('police/Raleway-Regular.ttf');
+    src: url('../police/Raleway-Regular.ttf');
     font-weight: normal;
     font-style: normal;
     font-size: 1em;
@@ -12,7 +12,7 @@
 @font-face
 {
     font-family: 'Raleway-bold';
-    src: url('police/Raleway-Bold.ttf');
+    src: url('../police/Raleway-Bold.ttf');
     font-weight: bold;
     font-style: normal;
     font-size: 1em;
@@ -21,7 +21,7 @@
 @font-face
 {
     font-family: 'Raleway-bolder';
-    src: url('police/Raleway-ExtraBold.ttf');
+    src: url('../police/Raleway-ExtraBold.ttf');
     font-weight: normal;
     font-style: normal;
     font-size: 1em;
@@ -31,30 +31,17 @@
 
     /*Locations*/
 
-    .fas.fa-star.blue
+    .fas.fa-star.blue, .fas.fa-star.gray
     {
         color:#0065FC;
-        font-size: 0.85em;
-    }
-
-    .fas.fa-star.gray
-    {
-        color: #dadada;
         font-size: 0.85em;
     }
 
     /*Most popular*/
 
-    .fas.fa-star.blue2
+    .fas.fa-star.blue2, .fas.fa-star.gray2
     {
         color:#0065FC;
-        font-size: 0.85em;
-        margin-top: 45px;
-    }
-
-    .fas.fa-star.gray2
-    {
-        color: #dadada;
         font-size: 0.85em;
         margin-top: 45px;
     }
@@ -385,7 +372,7 @@ h1 + p /*'En plein centre ville ou en pleine nature'*/
 
     /*Filter Icons*/
 
-    .fas.fa-money-bill-wave
+    .fas.fa-money-bill-wave, .fas.fa-heart, .fas.fa-dog
     {
         border: solid 3px #DEEBFF;
         border-radius: 25px;
@@ -401,28 +388,6 @@ h1 + p /*'En plein centre ville ou en pleine nature'*/
         border: solid 3px #DEEBFF;
         border-radius: 25px;
         padding: 13px 15px 13px 15px; 
-        margin-right: 9px;
-        color: #0065FC;
-        background-color: #DEEBFF;
-        font-size: 1.1em;
-    }
-
-    .fas.fa-heart
-    {
-        border: solid 3px #DEEBFF;
-        border-radius: 25px;
-        padding: 13px; 
-        margin-right: 9px;
-        color: #0065FC;
-        background-color: #DEEBFF;
-        font-size: 1.1em;
-    }
-
-    .fas.fa-dog
-    {
-        border: solid 3px #DEEBFF;
-        border-radius: 25px;
-        padding: 13px; 
         margin-right: 9px;
         color: #0065FC;
         background-color: #DEEBFF;
@@ -580,38 +545,22 @@ article h2, aside h2 /*More margin for titles in section 1*/
 
     /*Columns*/
 
-    .col12 /*Flex container for columns 1 and 2*/
+    .col12, .col34 /*Flex container for columns*/
     {
-        width: 47.5%;
+        width: 50%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        align-items: stretch;
     }
 
-    .col34 /*Flex container for columns 3 and 4*/
-    {
-        width: 47.5%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: stretch;
-    }
-
-    .column2 /*Flex container for columns 2*/
+    .column2, .column4 /*Flex container for columns 2 and 4*/
     {
         width: 300px;
         display: flex;
         flex-wrap: wrap;
+        margin: auto;
         justify-content: space-between;
-    }
-
-    .column4 /*Flex container for columns 4*/
-    {
-        width: 300px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        align-items: stretch;
     }
 
     /*Activities vignettes*/
@@ -623,22 +572,45 @@ article h2, aside h2 /*More margin for titles in section 1*/
         font-size: 1em;
     }
 
-        /*'Vieux Port'*/
+        /*Vignettes*/
 
-        .column1
+        .column1, .column3
         {
             width: 300px;
             border-radius: 20px;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
             box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
         }
 
-        .column1:hover
+        .act2, .act5
+        {
+            width: 300px;
+            border-radius: 20px;
+            margin-top: 10px;
+            margin-bottom: 25px;
+            box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
+        }
+
+        .act3, .act6
+        {
+            width: 300px;
+            border-radius: 20px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
+        }
+
+        .column1:hover, .act2:hover, .act3:hover, .column3:hover, .act5:hover, .act6:hover
         {
             transform: scale(1.05);
             transition: .3s;
         }
 
-        .pic3
+        /*Pictres*/
+
+        .pic3, .pic6
         {
             width: 300px;
             height: 385px;
@@ -648,23 +620,7 @@ article h2, aside h2 /*More margin for titles in section 1*/
             margin-top:-13px;
         }
 
-        /*'Fort de Pomègues'*/
-
-        .act2
-        {
-            width: 300px;
-            border-radius: 20px;
-            margin-bottom: 25px;
-            box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-        }
-
-        .act2:hover
-        {
-            transform: scale(1.05);
-            transition: .2s;
-        }
-
-        .pic4
+        .pic4, .pic7
         {
             width: 300px;
             height: 180px;
@@ -674,23 +630,7 @@ article h2, aside h2 /*More margin for titles in section 1*/
             margin-top:-13px;
         }
 
-        /*'Îles du Frioul'*/
-
-        .act3
-        {
-            width: 300px;
-            border-radius: 20px;
-            margin-top: 25px;
-            box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-        }
-
-        .act3:hover
-        {
-            transform: scale(1.05);
-            transition: .2s;
-        }
-
-        .pic5
+        .pic5, .pic8
         {
             width: 300px;
             height: 110px;
@@ -698,83 +638,6 @@ article h2, aside h2 /*More margin for titles in section 1*/
             object-fit: cover;
             border-radius: 20px 20px 0 0;
             margin-top:-13px;
-        }
-
-        /*'Parc National des Calanques'*/
-
-        .column3
-        {
-            width: 300px;
-            border-radius: 20px;
-            box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-        }
-
-        .column3:hover
-        {
-            transform: scale(1.05);
-            transition: .2s;
-        }
-
-        .pic6
-        {
-            width: 300px;
-            height: 385px;
-            overflow: hidden;
-            object-fit: cover;
-            border-radius: 20px 20px 0 0;
-            margin-top:-13px;
-        }
-
-        /*'Notre-Dame-de-la-Garde'*/
-
-        .act5
-        {
-            width: 300px;
-            border-radius: 20px;
-            margin-bottom: 25px;
-            box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-        }
-
-        .act5:hover
-        {
-            transform: scale(1.05);
-            transition: .2s;
-        }
-
-        .pic7
-        {
-            width: 300px;
-            height: 180px;
-            overflow: hidden;
-            object-fit: cover;
-            border-radius: 20px 20px 0 0;
-            margin-top:-13px;
-        }
-
-        /*'Parc Longchamp'*/
-
-        .act6
-        {
-            width: 300px;
-            border-radius: 20px;
-            margin-top: 25px;
-            box-shadow: 6px 6px 12px #F2F2F2, -6px 6px 12px #F2F2F2;
-        }
-
-        .act6:hover
-        {
-            transform: scale(1.05);
-            transition: .2s;
-        }
-
-        .pic8
-        {
-            width: 300px;
-            height: 110px;
-            overflow: hidden;
-            object-fit: cover;
-            border-radius: 20px 20px 0 0;
-            margin-top: -15px;
         }
 
 /*Footer*/
@@ -818,12 +681,7 @@ footer li
         margin-bottom: 40px;
     }
 
-    .col12
-    {
-        width: 49.5%;
-    }
-
-    .col34
+    .col12, .col34
     {
         width: 49.5%;
     }
@@ -875,24 +733,13 @@ footer li
         padding-left: 40px;
     }
 
-    .col12
+    .col12, .col34
     {
         margin: auto;
         justify-content: center;
     }
 
-    .col34
-    {
-        margin: auto;
-        justify-content: center;
-    }
-
-    .column1
-    {
-        margin-bottom: 40px;
-    }
-
-    .column3
+    .column1, .column3
     {
         margin-bottom: 40px;
     }
@@ -907,6 +754,11 @@ footer li
     {
         padding-left: 40px;
         margin-top: 0;
+    }
+
+    .pic-text
+    {
+        font-size: 1em;
     }
 
     .col12, .col34
@@ -956,13 +808,7 @@ footer li
 
     /*General formating*/
 
-    body
-    {
-        width: 100%;
-        margin: 0;
-    }
-
-    main
+    body, main
     {
         width: 100%;
         margin: 0;
@@ -1066,14 +912,6 @@ footer li
         transition: .3s;
     }
 
-    .custom-home-search button[name="loupe"]:focus
-    {
-        background: #DEEBFF;
-        border: #DEEBFF;
-        color: black;
-        transition: .3s;
-    }
-
     .custom-home-search input[id="rechercher"]
     {
         display: none;
@@ -1100,7 +938,7 @@ footer li
 
         /*Filter Icons*/
 
-        .fas.fa-money-bill-wave
+        .fas.fa-money-bill-wave, .fas.fa-heart, .fas.fa-dog
         {
             border: solid 3px #DEEBFF;
             border-radius: 25px;
@@ -1115,26 +953,6 @@ footer li
             border: solid 3px #DEEBFF;
             border-radius: 25px;
             padding: 12px 15px 12px 15px;
-            color: #0065FC;
-            background-color: #DEEBFF;
-            font-size: 0.9em;
-        }
-
-        .fas.fa-heart
-        {
-            border: solid 3px #DEEBFF;
-            border-radius: 25px;
-            padding: 12px;
-            color: #0065FC;
-            background-color: #DEEBFF;
-            font-size: 0.9em;
-        }
-
-        .fas.fa-dog
-        {
-            border: solid 3px #DEEBFF;
-            border-radius: 25px;
-            padding: 12px;
             color: #0065FC;
             background-color: #DEEBFF;
             font-size: 0.9em;
