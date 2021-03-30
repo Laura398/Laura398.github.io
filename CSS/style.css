@@ -450,7 +450,7 @@ article h2, aside h2 /*More margin for titles in section 1*/
 
     article
     {
-        max-width: 60%;
+        max-width: 62%;
         padding: 30px 30px 30px 30px;
         background-color: #F2F2F2;
         border-radius: 20px;
@@ -655,7 +655,7 @@ footer ul
     width: 25%;
     list-style-type: none;
     display:list-item;
-    margin-left: 50px;
+    margin-left: 80px;
     font-size: 0.85em;
     padding-bottom: 20px;
 }
