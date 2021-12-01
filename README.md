@@ -1,6 +1,7 @@
 # Reservia
 
 Vous cherchez le lieu parfait pour passer les meilleures vacances de votre vie ? Reservia est là pour vous !
+Voici un lien pour accéder à une version en ligne de la page : https://laura398.github.io/LauraMathieu_2_08032021/
 
 ## Openclassrooms
 
